@@ -19,7 +19,7 @@
 
 html {
   font-size: 1em;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased; }
 
 body {
@@ -61,7 +61,7 @@ hr {
   border-top: 1px solid #EAEAEA; }
 
 .icon-lg {
-  font-size: 1.3333333333em;
+  font-size: 1.33333em;
   line-height: 0.75em;
   vertical-align: -15%; }
 
@@ -259,8 +259,7 @@ p {
 .container--small {
   max-width: 780px; }
 
-/*------------------------------------*\
-    $CSSWIZARDRY-GRIDS
+/*------------------------------------*    $CSSWIZARDRY-GRIDS
 \*------------------------------------*/
 /**
  * CONTENTS
@@ -272,8 +271,7 @@ p {
  * PUSH.................Push classes.
  * PULL.................Pull classes.
  */
-/*------------------------------------*\
-    $INTRODUCTION
+/*------------------------------------*    $INTRODUCTION
 \*------------------------------------*/
 /**
  * csswizardry grids provides you with widths to suit a number of breakpoints
@@ -315,22 +313,21 @@ p {
  *
    `class="grid__item  palm--one-third  desk--five-twelfths"`
  */
-/*------------------------------------*\
-    $VARIABLES
+/*------------------------------------*    $VARIABLES
 \*------------------------------------*/
 /**
  * If you are building a non-responsive site but would still like to use
- * csswizardry-grids, set this to ÔÇÿfalseÔÇÖ:
+ * csswizardry-grids, set this to ‘false’:
  */
 /**
- * Is this build mobile first? Setting to ÔÇÿtrueÔÇÖ means that all grids will be
+ * Is this build mobile first? Setting to ‘true’ means that all grids will be
  * 100% width if you do not apply a more specific class to them.
  */
 /**
  * Set the spacing between your grid items.
  */
 /**
- * Would you like SassÔÇÖ silent classes, or regular CSS classes?
+ * Would you like Sass’ silent classes, or regular CSS classes?
  */
 /**
  * Would you like push and pull classes enabled?
@@ -360,14 +357,13 @@ p {
  * add and remove breakpoints at will.
  *
  * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
- * have been set to ÔÇÿtrueÔÇÖ.
+ * have been set to ‘true’.
  */
 /**
  * You do not need to edit anything from this line onward; csswizardry-grids is
- * good to go. Happy griddinÔÇÖ!
+ * good to go. Happy griddin’!
  */
-/*------------------------------------*\
-    $MIXINS
+/*------------------------------------*    $MIXINS
 \*------------------------------------*/
 /**
  * These mixins are for the library to use only, you should not need to modify
@@ -376,16 +372,15 @@ p {
  * Enclose a block of code with a media query as named in `$breakpoints`.
  */
 /**
- * Drop relative positioning into silent classes which canÔÇÖt take advantage of
+ * Drop relative positioning into silent classes which can’t take advantage of
  * the `[class*="push--"]` and `[class*="pull--"]` selectors.
  */
-/*------------------------------------*\
-    $GRID SETUP
+/*------------------------------------*    $GRID SETUP
 \*------------------------------------*/
 /**
  * 1. Allow the grid system to be used on lists.
  * 2. Remove any margins and paddings that might affect the grid system.
- * 3. Apply a negative `margin-left` to negate the columnsÔÇÖ gutters.
+ * 3. Apply a negative `margin-left` to negate the columns’ gutters.
  */
 .grid {
   list-style: none;
@@ -398,12 +393,12 @@ p {
   /* [3] */ }
 
 /**
- * 1. Cause columns to stack side-by-side.
- * 2. Space columns apart.
- * 3. Align columns to the tops of each other.
- * 4. Full-width unless told to behave otherwise.
- * 5. Required to combine fluid widths and fixed gutters.
- */
+     * 1. Cause columns to stack side-by-side.
+     * 2. Space columns apart.
+     * 3. Align columns to the tops of each other.
+     * 4. Full-width unless told to behave otherwise.
+     * 5. Required to combine fluid widths and fixed gutters.
+     */
 .grid__item {
   display: inline-block;
   /* [1] */
@@ -483,8 +478,7 @@ p {
   .grid--wide > .grid__item {
     padding-left: 44px; }
 
-/*------------------------------------*\
-    $WIDTHS
+/*------------------------------------*    $WIDTHS
 \*------------------------------------*/
 /**
  * Create our width classes, prefixed by the specified namespace.
@@ -493,20 +487,20 @@ p {
  * Our regular, non-responsive width classes.
  */
 /**
- * Whole
- */
+     * Whole
+     */
 .one-whole {
   width: 100%; }
 
 /**
- * Halves
- */
+     * Halves
+     */
 .one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths {
   width: 50%; }
 
 /**
- * Thirds
- */
+     * Thirds
+     */
 .one-third, .two-sixths, .four-twelfths {
   width: 33.333%; }
 
@@ -514,8 +508,8 @@ p {
   width: 66.666%; }
 
 /**
- * Quarters
- */
+     * Quarters
+     */
 .one-quarter, .two-eighths, .three-twelfths {
   width: 25%; }
 
@@ -523,8 +517,8 @@ p {
   width: 75%; }
 
 /**
- * Fifths
- */
+     * Fifths
+     */
 .one-fifth, .two-tenths {
   width: 20%; }
 
@@ -538,8 +532,8 @@ p {
   width: 80%; }
 
 /**
- * Sixths
- */
+     * Sixths
+     */
 .one-sixth, .two-twelfths {
   width: 16.666%; }
 
@@ -547,8 +541,8 @@ p {
   width: 83.333%; }
 
 /**
- * Eighths
- */
+     * Eighths
+     */
 .one-eighth {
   width: 12.5%; }
 
@@ -562,8 +556,8 @@ p {
   width: 87.5%; }
 
 /**
- * Tenths
- */
+     * Tenths
+     */
 .one-tenth {
   width: 10%; }
 
@@ -577,8 +571,8 @@ p {
   width: 90%; }
 
 /**
- * Twelfths
- */
+     * Twelfths
+     */
 .one-twelfth {
   width: 8.333%; }
 
@@ -596,315 +590,276 @@ p {
  */
 @media only screen and (min-width: 620px) {
   /**
-   * Whole
-   */
+     * Whole
+     */
   .small--one-whole {
     width: 100%; }
-
   /**
-   * Halves
-   */
+     * Halves
+     */
   .small--one-half, .small--two-quarters, .small--three-sixths, .small--four-eighths, .small--five-tenths, .small--six-twelfths {
     width: 50%; }
-
   /**
-   * Thirds
-   */
+     * Thirds
+     */
   .small--one-third, .small--two-sixths, .small--four-twelfths {
     width: 33.333%; }
-
   .small--two-thirds, .small--four-sixths, .small--eight-twelfths {
     width: 66.666%; }
-
   /**
-   * Quarters
-   */
+     * Quarters
+     */
   .small--one-quarter, .small--two-eighths, .small--three-twelfths {
     width: 25%; }
-
   .small--three-quarters, .small--six-eighths, .small--nine-twelfths {
     width: 75%; }
-
   /**
-   * Fifths
-   */
+     * Fifths
+     */
   .small--one-fifth, .small--two-tenths {
     width: 20%; }
-
   .small--two-fifths, .small--four-tenths {
     width: 40%; }
-
   .small--three-fifths, .small--six-tenths {
     width: 60%; }
-
   .small--four-fifths, .small--eight-tenths {
     width: 80%; }
-
   /**
-   * Sixths
-   */
+     * Sixths
+     */
   .small--one-sixth, .small--two-twelfths {
     width: 16.666%; }
-
   .small--five-sixths, .small--ten-twelfths {
     width: 83.333%; }
-
   /**
-   * Eighths
-   */
+     * Eighths
+     */
   .small--one-eighth {
     width: 12.5%; }
-
   .small--three-eighths {
     width: 37.5%; }
-
   .small--five-eighths {
     width: 62.5%; }
-
   .small--seven-eighths {
     width: 87.5%; }
-
   /**
-   * Tenths
-   */
+     * Tenths
+     */
   .small--one-tenth {
     width: 10%; }
-
   .small--three-tenths {
     width: 30%; }
-
   .small--seven-tenths {
     width: 70%; }
-
   .small--nine-tenths {
     width: 90%; }
-
   /**
-   * Twelfths
-   */
+     * Twelfths
+     */
   .small--one-twelfth {
     width: 8.333%; }
-
   .small--five-twelfths {
     width: 41.666%; }
-
   .small--seven-twelfths {
     width: 58.333%; }
-
   .small--eleven-twelfths {
     width: 91.666%; } }
+
 @media only screen and (min-width: 768px) {
   /**
-   * Whole
-   */
+     * Whole
+     */
   .medium--one-whole {
     width: 100%; }
-
   /**
-   * Halves
-   */
+     * Halves
+     */
   .medium--one-half, .medium--two-quarters, .medium--three-sixths, .medium--four-eighths, .medium--five-tenths, .medium--six-twelfths {
     width: 50%; }
-
   /**
-   * Thirds
-   */
+     * Thirds
+     */
   .medium--one-third, .medium--two-sixths, .medium--four-twelfths {
     width: 33.333%; }
-
   .medium--two-thirds, .medium--four-sixths, .medium--eight-twelfths {
     width: 66.666%; }
-
   /**
-   * Quarters
-   */
+     * Quarters
+     */
   .medium--one-quarter, .medium--two-eighths, .medium--three-twelfths {
     width: 25%; }
-
   .medium--three-quarters, .medium--six-eighths, .medium--nine-twelfths {
     width: 75%; }
-
   /**
-   * Fifths
-   */
+     * Fifths
+     */
   .medium--one-fifth, .medium--two-tenths {
     width: 20%; }
-
   .medium--two-fifths, .medium--four-tenths {
     width: 40%; }
-
   .medium--three-fifths, .medium--six-tenths {
     width: 60%; }
-
   .medium--four-fifths, .medium--eight-tenths {
     width: 80%; }
-
   /**
-   * Sixths
-   */
+     * Sixths
+     */
   .medium--one-sixth, .medium--two-twelfths {
     width: 16.666%; }
-
   .medium--five-sixths, .medium--ten-twelfths {
     width: 83.333%; }
-
   /**
-   * Eighths
-   */
+     * Eighths
+     */
   .medium--one-eighth {
     width: 12.5%; }
-
   .medium--three-eighths {
     width: 37.5%; }
-
   .medium--five-eighths {
     width: 62.5%; }
-
   .medium--seven-eighths {
     width: 87.5%; }
-
   /**
-   * Tenths
-   */
+     * Tenths
+     */
   .medium--one-tenth {
     width: 10%; }
-
   .medium--three-tenths {
     width: 30%; }
-
   .medium--seven-tenths {
     width: 70%; }
-
   .medium--nine-tenths {
     width: 90%; }
-
   /**
-   * Twelfths
-   */
+     * Twelfths
+     */
   .medium--one-twelfth {
     width: 8.333%; }
-
   .medium--five-twelfths {
     width: 41.666%; }
-
   .medium--seven-twelfths {
     width: 58.333%; }
-
   .medium--eleven-twelfths {
     width: 91.666%; } }
+
 @media only screen and (min-width: 1024px) {
   /**
-   * Whole
-   */
+     * Whole
+     */
   .large--one-whole {
     width: 100%; }
-
   /**
-   * Halves
-   */
+     * Halves
+     */
   .large--one-half, .large--two-quarters, .large--three-sixths, .large--four-eighths, .large--five-tenths, .large--six-twelfths {
     width: 50%; }
-
   /**
-   * Thirds
-   */
+     * Thirds
+     */
   .large--one-third, .large--two-sixths, .large--four-twelfths {
     width: 33.333%; }
-
   .large--two-thirds, .large--four-sixths, .large--eight-twelfths {
     width: 66.666%; }
-
   /**
-   * Quarters
-   */
+     * Quarters
+     */
   .large--one-quarter, .large--two-eighths, .large--three-twelfths {
     width: 25%; }
-
   .large--three-quarters, .large--six-eighths, .large--nine-twelfths {
     width: 75%; }
-
   /**
-   * Fifths
-   */
+     * Fifths
+     */
   .large--one-fifth, .large--two-tenths {
     width: 20%; }
-
   .large--two-fifths, .large--four-tenths {
     width: 40%; }
-
   .large--three-fifths, .large--six-tenths {
     width: 60%; }
-
   .large--four-fifths, .large--eight-tenths {
     width: 80%; }
-
   /**
-   * Sixths
-   */
+     * Sixths
+     */
   .large--one-sixth, .large--two-twelfths {
     width: 16.666%; }
-
   .large--five-sixths, .large--ten-twelfths {
     width: 83.333%; }
-
   /**
-   * Eighths
-   */
+     * Eighths
+     */
   .large--one-eighth {
     width: 12.5%; }
-
   .large--three-eighths {
     width: 37.5%; }
-
   .large--five-eighths {
     width: 62.5%; }
-
   .large--seven-eighths {
     width: 87.5%; }
-
   /**
-   * Tenths
-   */
+     * Tenths
+     */
   .large--one-tenth {
     width: 10%; }
-
   .large--three-tenths {
     width: 30%; }
-
   .large--seven-tenths {
     width: 70%; }
-
   .large--nine-tenths {
     width: 90%; }
-
   /**
-   * Twelfths
-   */
+     * Twelfths
+     */
   .large--one-twelfth {
     width: 8.333%; }
-
   .large--five-twelfths {
     width: 41.666%; }
-
   .large--seven-twelfths {
     width: 58.333%; }
-
   .large--eleven-twelfths {
     width: 91.666%; } }
-/*------------------------------------*\
-    $PUSH
+
+/*------------------------------------*    $PUSH
 \*------------------------------------*/
 /**
  * Push classes, to move grid items over to the right by certain amounts.
  */
-/*------------------------------------*\
-    $PULL
+/*------------------------------------*    $PULL
 \*------------------------------------*/
 /**
  * Pull classes, to move grid items back to the left by certain amounts.
  */
 .list--unbulet {
   list-style-type: none; }
+
+.header {
+  position: relative; }
+  .header__social {
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px; }
+  .header__icon {
+    border-radius: 50%;
+    background-color: #BFBFBF;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 10px 15px; }
+  .header__caption {
+    width: 27%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%, 0); }
+  .header__text {
+    font-size: 18px; }
+  .header__image {
+    float: right;
+    margin-top: 40px;
+    margin-right: 30px;
+    width: 300px;
+    height: 60px; }
 
 .vertical-center--inline:before {
   content: "";
@@ -1093,6 +1048,7 @@ p {
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
+
 .clearfix:after {
   clear: both; }
 
@@ -1258,5 +1214,3 @@ p {
 .hard--sides {
   padding-right: 0;
   padding-left: 0; }
-
-/*# sourceMappingURL=main.css.map */
