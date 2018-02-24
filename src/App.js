@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import './stylesheets/main.css';
+import './assets/stylesheets/main.css';
 import Header from './components/Header.js';
+import MainSection from './components/Main-section';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
           <Header />
+          <MainSection />
       </div>
     );
   }

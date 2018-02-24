@@ -1,9 +1,9 @@
 .header {
     position: relative;
     &__social {
-        float: left;
         margin-left: 40px;
         margin-top: 30px;
+        display: inline-block;
     }
     &__icon {
         border-radius: 50%;
@@ -11,10 +11,10 @@
         width: 80px;
         height: 80px;
         display: inline-block;
-        margin: 10px 15px;
+        margin: 10px 12px;
     }
     &__caption {
-        width: 27%;
+        max-width: 27%;
         position: absolute;
         text-align: center;
         left: 50%;

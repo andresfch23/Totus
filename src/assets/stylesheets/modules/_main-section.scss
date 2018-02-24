@@ -1,0 +1,104 @@
+.main {
+    display: block;
+    &__advertisment {
+        background-color: $gray-light;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        margin-top: 0;
+    }
+    &__menu {
+        &-section{
+            background-color: $blue;
+            &--blue-dark {
+                background-color: $blue-dark;
+                margin-top: 22px;
+            }
+            &--blue-light {
+                background-color: $blue-light;
+            }
+            &--blue-cloud {
+                background-color: $blue-cloud;
+            }
+            &--blue-deep {
+                background-color: $blue-deep;
+            }
+        }
+        &-text {
+            font-family: 'Libel-Suit';
+            color: $white;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 20px 0 ;
+            font-size: 36px;
+        }
+    }
+    &__client {
+        margin-top: 10px;
+        text-align: center;
+        &-promo { 
+            display: inline-block;
+            width: 48%;
+            background-color: $blue-black;
+            padding: 49.5px 35px;
+            color: $white;
+            &-text {
+                display: block;
+                font-size: 22px;
+            }
+            &-subtext {
+                font-size: 9px;
+                display: block;
+                line-height: 1.4;
+                font
+                &-space {
+                    padding: 30px; 
+                    padding-bottom: 0;
+                    padding-top: 6px;
+                    margin-top: 5px;
+                }
+            }
+        }
+        &-info {
+            padding: 20px 140px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.2;
+            color: gray;
+        }
+        &-contact {
+            background-image: url('../images/3.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 52%;
+            height: 256px;
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
+    &__image {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 22px;
+    }
+    &__advertistment {
+        &-text {
+            color: orangered;
+            font-size: 32px;
+        }
+    }
+    &__social {
+        display: block;
+        text-align: center;
+    }
+    &__icon {
+        border-radius: 50%;
+        background-color: $gray-light;
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+        margin: 10px 12px;
+    }
+}
