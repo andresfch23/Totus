@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../images/nombre.png';
+import logo from '../assets/images/nombre.png';
 
 class Header extends Component {
     render() {
@@ -15,9 +15,8 @@ class Header extends Component {
                 <div className="header__caption">
                     <p className="header__text">"Mi pasado, Señor, lo confío a tu misericordia, mi presente a tu amor, mi futuro a tu providencia.” San Pío de Pietrecina</p>
                 </div>
-
+                
                 <img className="header__image" src={logo} alt="user face"></img>
-
             </header>
         );
     }
