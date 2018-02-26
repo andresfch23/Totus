@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import MagazineImageRight from  '../assets/images/2.jpg'
 import MagazineImageLeft from '../assets/images/image.jpg'
 
-class MainSection extends Component {
+class Home extends Component {
     render() {
         return(
             <div>
@@ -69,5 +69,5 @@ class MainSection extends Component {
     }
 }
 
-export default MainSection;
+export default Home;
 
