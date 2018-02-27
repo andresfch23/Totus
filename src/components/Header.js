@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../assets/images/nombre.png';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
     render() {
@@ -16,7 +17,7 @@ class Header extends Component {
                     <p className="header__text">"Mi pasado, Señor, lo confío a tu misericordia, mi presente a tu amor, mi futuro a tu providencia.” San Pío de Pietrecina</p>
                 </div>
                 
-                <img className="header__image" src={logo} alt="user face"></img>
+                <Link to='/'><img className="header__image" src={logo} alt="user face"></img></Link>
             </header>
         );
     }
