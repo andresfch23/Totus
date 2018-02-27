@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import MagazineImageRight from  '../assets/images/2.jpg'
-import MagazineImageLeft from '../assets/images/image.jpg'
+import MagazineImageRight from  '../assets/images/2.jpg';
+import MagazineImageLeft from '../assets/images/image.jpg';
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
     render() {
@@ -19,7 +20,7 @@ class Home extends Component {
                     <div className="grid__item one-third">
                         <div className="main__menu">
                             <div className="main__menu-section main__menu-section--blue-dark">
-                                <h2 className="main__menu-text">¿Quienes Somos?</h2>
+                                <h2 className="main__menu-text"><Link to='quienes-somos'>¿Quienes Somos?</Link></h2>
                             </div>
                             <div className="main__menu-section main__menu-section--blue-light">
                                 <h2 className="main__menu-text">Ediciones</h2>
@@ -57,12 +58,6 @@ class Home extends Component {
                             <h1 className="main__advertistment-text">¿Por que los catolicos decidimos incursionar en la politica?</h1>
                         </div>
                     </div>
-                </div>
-                <div className="main__social">
-                        <div className="main__icon"></div>
-                        <div className="main__icon"></div> 
-                        <div className="main__icon"></div>
-                        <div className="main__icon"></div>
                 </div>
             </div>
         )
