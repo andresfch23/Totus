@@ -961,11 +961,11 @@ p {
 
 .about__description {
   margin-left: 90px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  width: 35%; }
   .about__description-text {
     text-align: justify;
     background-color: #0776B4;
-    width: 86%;
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 15px;
@@ -980,9 +980,54 @@ p {
   .about__description-image {
     background-image: url("../images/5.png");
     background-repeat: no-repeat;
-    width: 86%;
     height: 150px;
-    background-size: contain; }
+    background-size: contain;
+    margin-top: 15px; }
+
+.about__presentation {
+  width: 90%;
+  margin-left: 25px; }
+  .about__presentation-text {
+    width: 70%;
+    display: inline-block;
+    font-family: Verdana;
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.6; }
+    .about__presentation-text-first {
+      margin-bottom: 0;
+      padding-right: 30px; }
+
+.about__profile {
+  width: 30%;
+  display: inline-block;
+  position: relative;
+  top: -50px; }
+  .about__profile-image {
+    width: 63%; }
+  .about__profile-name {
+    position: absolute;
+    left: 85px;
+    top: 130px;
+    background-color: #1569B4;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-family: 'Libel-Suit';
+    font-size: 20px;
+    padding: 7px 20px; }
+
+.about__biography {
+  width: 58%; }
+
+.about__image {
+  background-image: url("../images/4.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 268px;
+  margin-top: 13px;
+  margin-left: 25px;
+  margin-right: 81px; }
 
 .vertical-center--inline:before {
   content: "";

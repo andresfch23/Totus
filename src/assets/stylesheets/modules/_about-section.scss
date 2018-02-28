@@ -2,10 +2,10 @@
     &__description {
         margin-left: 90px;
         margin-top: 20px;
+        width: 35%;
         &-text {
             text-align: justify;
             background-color: $pale-blue;
-            width: 86%;
             padding-left: 20px;
             padding-top: 20px;
             padding-right: 15px;
@@ -22,9 +22,58 @@
         &-image {
             background-image: url('../images/5.png');
             background-repeat: no-repeat;
-            width: 86%;
             height: 150px;
             background-size: contain;
+            margin-top: 15px;
         }
+    }
+    &__presentation {
+        width: 90%;
+        margin-left: 25px;
+        &-text {
+            width: 70%;
+            display: inline-block;
+            font-family: Verdana;
+            margin-top: 50px;
+            font-size: 15px;
+            text-align: justify; 
+            line-height: 1.6;
+            &-first {
+                margin-bottom: 0;
+                padding-right: 30px;
+            }
+        }
+    }
+    &__profile {
+        width: 30%;
+        display: inline-block;
+        position: relative;
+        top: -50px;
+        &-image {
+            width: 63%;
+        }
+        &-name {
+            position: absolute;
+            left: 85px;
+            top: 130px;
+            background-color: $blue-dark;
+            color: $white;
+            border-radius: 7px;
+            font-family: 'Libel-Suit';
+            font-size: 20px;
+            padding: 7px 20px;
+        }
+    }
+    &__biography {
+        width: 58%;
+    }
+    &__image {
+        background-image: url('../images/4.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 268px;
+        margin-top: 13px;
+        margin-left: 25px;
+        margin-right: 81px;
     }
 }
