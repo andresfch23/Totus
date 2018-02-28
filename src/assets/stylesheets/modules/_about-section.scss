@@ -1,0 +1,30 @@
+.about{
+    &__description {
+        margin-left: 90px;
+        margin-top: 20px;
+        &-text {
+            text-align: justify;
+            background-color: $pale-blue;
+            width: 86%;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-right: 15px;
+            padding-bottom: 70px;
+            font-size: 16px;
+            font-family: Verdana;
+            color: $white;
+            line-height: 1.68;
+            margin-top: 25px;
+        }
+        &-content {
+            margin-bottom: 0;
+        }
+        &-image {
+            background-image: url('../images/5.png');
+            background-repeat: no-repeat;
+            width: 86%;
+            height: 150px;
+            background-size: contain;
+        }
+    }
+}

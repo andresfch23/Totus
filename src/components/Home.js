@@ -9,7 +9,7 @@ class Home extends Component {
             <div>
                 <div className="grid main">
                     <div className="grid__item one-third">
-                        <div className="main__advertisment">
+                        <div className="main__advertisement">
                             <h1>Una Bolsa de papel es ..</h1>
                         </div>
                         <div className="main__magazine">
@@ -54,8 +54,8 @@ class Home extends Component {
                         <div className="main__magazine">
                             <img className="main__image" src={MagazineImageRight} alt="Crist on the cross"></img>
                         </div>
-                        <div className="main__advertisment">
-                            <h1 className="main__advertistment-text">¿Por que los catolicos decidimos incursionar en la politica?</h1>
+                        <div className="main__advertisement">
+                            <h1 className="main__advertisement-text">¿Por que los catolicos decidimos incursionar en la politica?</h1>
                         </div>
                     </div>
                 </div>
