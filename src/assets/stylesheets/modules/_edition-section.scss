@@ -1,0 +1,66 @@
+.edition {
+    &__left {
+        padding-left: 110px;
+        &-advertisement {
+            width: 77%;
+            color: $white;
+            &-description {
+                background-color: $blue-sky;
+                margin-top: 25px;
+                letter-spacing: 2px;
+                font-family: verdana;
+                text-align: center;
+                padding-top: 110px;
+                padding-bottom: 110px;
+            }
+            &-image {
+                background-image: url('../images/3.jpeg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 224px;
+            }
+            &-text {
+                font-size: 20px;
+                display: block;
+            }
+            &-subtext {
+                font-size: 10px;
+                display: block;
+            }
+        }
+        &-title {
+            background-color: $blue-dark;
+            display: inline-block;
+            border-radius: 7px;
+            & h2 {
+                font-family: 'Libel-Suit';
+                color: $white;
+                padding-left: 25px;
+                margin-bottom: 15px;
+                margin-top: 15px;
+                padding-right: 110px;
+            }
+        }
+        &-description {
+            margin-top: 25px;
+            background-color: $blue-light;
+            width: 94%;
+            padding-bottom: 12px;
+            border-radius: 7px;
+            &-image {
+                width: 90%;
+                margin-left: 15px;
+                margin-top: 40px;
+                margin-bottom: 30px;
+            }
+            &-text {
+                font-family: 'Libel-Suit';
+                color: $white;
+                display: block;
+                text-align: center;
+                font-size: 28px;
+                line-height: 1.2;
+            }
+        }   
+    }
+}
