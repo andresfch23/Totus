@@ -23,7 +23,7 @@ class Home extends Component {
                                 <h2 className="main__menu-text"><Link to='quienes-somos'>¿Quienes Somos?</Link></h2>
                             </div>
                             <div className="main__menu-section main__menu-section--blue-light">
-                                <h2 className="main__menu-text">Ediciones</h2>
+                                <h2 className="main__menu-text"><Link to='ediciones'>Ediciones</Link></h2>
                             </div>
                             <div className="main__menu-section main__menu-section--blue-cloud">
                                 <h2 className="main__menu-text">Entrevistas Exclusivas de TOTUS TUUS</h2>
