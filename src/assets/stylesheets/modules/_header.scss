@@ -1,18 +1,5 @@
 .header {
     position: relative;
-    &__social {
-        margin-left: 40px;
-        margin-top: 30px;
-        display: inline-block;
-    }
-    &__icon {
-        border-radius: 50%;
-        background-color: $gray-light;
-        width: 80px;
-        height: 80px;
-        display: inline-block;
-        margin: 10px 12px;
-    }
     &__caption {
         max-width: 27%;
         position: absolute;
@@ -32,3 +19,4 @@
         height: 60px;
     }
 }
+

@@ -1,0 +1,113 @@
+.interview {
+    &__main {
+        &-container {
+            margin-top: 5px;
+        }
+        &-title {
+            color: $white;
+            font-family: 'Libel-Suit';
+            padding: 15px 20px;
+            background-color: $blue-dark;
+            display: inline-block;
+            margin-left: 90px;
+            border-radius: 7px;
+            margin-top: 0;
+        }
+    }
+    &__gallery {
+        margin-left: 82px;
+        &-profile {
+            text-align: center;
+            display: inline-block;
+            vertical-align: text-top;
+            color: $gray-darker2;
+            margin-top: 49px;
+            &--one {
+                margin-right: 60px;
+            }
+            &--six {
+                margin-right: 10px;
+            }
+            &--eight {
+                margin-right: 30px; 
+            }
+            &--ten {
+                margin-left: 10px;
+            }
+            &--eleven {
+                margin-left: 40px;
+                margin-right: 85px;
+            }
+            &--twelve {
+                margin-left: 67px;
+                margin-right: 67px;
+            }
+            &--thirteen {
+                margin-left: 25px;
+            }
+            &--fourteen {
+                margin-left: 40px;
+                margin-right: 55px;
+            }
+            &--fifteen {
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+            &--sixteen {
+                margin-left: 46px;
+            }
+            &--seventeen {
+                margin-left: 40px;
+                margin-right: 96px;
+            }
+        }
+        &-image {
+            width: 85%;
+            &--increase {
+                width: 115%;
+            }
+        }
+        &-text {
+            display: block;
+            &-space {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.advertisement {
+    &__image {
+        background-image: url('../images/cellphone.jpeg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 230px;
+        margin-top: 24px;
+        &-second {
+            background-image: url('../images/3.jpeg');
+            height: 218px;
+        }
+    }
+    &__description {
+        background-color: $gray-darker;
+        letter-spacing: 2px;
+        font-family: verdana;
+        text-align: center;
+        padding-top: 90px;
+        padding-bottom: 120px;
+        color: $white;
+        width: 71%;
+        &-second {
+            background-color: $blue-sky;
+        }
+    }
+    &__text {
+        font-size: 20px;
+        display: block;
+    }
+    &__subtext {
+        font-size: 10px;
+        display: block;
+    }
+}
+

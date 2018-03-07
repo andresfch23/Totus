@@ -48,8 +48,10 @@
 //modules, the real css that you write everyday based on the design
 @import "modules/header";
 @import "modules/main-section";
-@import "modules/_about-section";
-@import "modules/_edition-section";
+@import "modules/about-section";
+@import "modules/edition-section";
+@import "modules/social";
+@import "modules/interviews";
 
 // Helpers
 @import "helpers/helpers";
