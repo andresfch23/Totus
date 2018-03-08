@@ -4,11 +4,10 @@ import InstagramLogo from '../assets/images/logos/insta.png';
 import WhatsappLogo from '../assets/images/logos/whatsapp.png';
 import GmailLogo from '../assets/images/logos/gmail.png'; 
 
-
-class Footer extends Component {
+class Social extends Component {
     render() {
         return(
-            <div className="social social--footer">
+            <div className="social">
                 <img className="social__icon" src={FacebookLogo} alt="Facebook logo"></img>
                 <img className="social__icon" src={InstagramLogo} alt="Instagram logo"></img>
                 <div className="social__icon social__icon--container">
@@ -20,4 +19,4 @@ class Footer extends Component {
     }
 }
 
-export default Footer;
+export default Social;

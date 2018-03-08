@@ -1,37 +1,11 @@
 .edition {
     &__left {
         padding-left: 110px;
-        &-advertisement {
-            width: 77%;
-            color: $white;
-            &-description {
-                background-color: $blue-sky;
-                margin-top: 25px;
-                letter-spacing: 2px;
-                font-family: verdana;
-                text-align: center;
-                padding-top: 110px;
-                padding-bottom: 110px;
-            }
-            &-image {
-                background-image: url('../images/3.jpeg');
-                background-repeat: no-repeat;
-                background-size: contain;
-                height: 224px;
-            }
-            &-text {
-                font-size: 20px;
-                display: block;
-            }
-            &-subtext {
-                font-size: 10px;
-                display: block;
-            }
-        }
         &-title {
             background-color: $blue-dark;
             display: inline-block;
             border-radius: 7px;
+            margin-top: 20px;
             & h2 {
                 font-family: 'Libel-Suit';
                 color: $white;
@@ -62,5 +36,55 @@
                 line-height: 1.2;
             }
         }   
+    }
+    &__gallery {
+        margin-left: -25px;
+        &-image {
+            width: 80%;
+            display:block;
+            margin:auto;
+        }
+        &-text {
+            display: block;
+            text-align: center;
+            font-family: Verdana;
+            color: $gray-darker2;
+            font-size: 14.5px;
+        }
+        &-container {
+            margin-bottom: 20px;
+        }
+    }
+    &__advertisement {
+        width: 77%;
+        color: $white;
+        &-right {
+            width: 91.4%;
+        }
+        &-description {
+            background-color: $gray-darker;
+            margin-top: 25px;
+            letter-spacing: 2px;
+            font-family: verdana;
+            text-align: center;
+            padding-top: 110px;
+            padding-bottom: 110px;
+            &-right {
+                margin-top: 0;
+            }
+        }
+        &-image {
+            background-image: url('../images/cellphone.jpeg');
+            background-size: contain;
+            height: 220px;
+        }
+        &-text {
+            font-size: 20px;
+            display: block;
+        }
+        &-subtext {
+            font-size: 10px;
+            display: block;
+        }
     }
 }

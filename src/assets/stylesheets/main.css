@@ -840,17 +840,6 @@ p {
 
 .header {
   position: relative; }
-  .header__social {
-    margin-left: 40px;
-    margin-top: 30px;
-    display: inline-block; }
-  .header__icon {
-    border-radius: 50%;
-    background-color: #BFBFBF;
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    margin: 10px 12px; }
   .header__caption {
     max-width: 27%;
     position: absolute;
@@ -948,16 +937,6 @@ p {
     width: 90%;
     margin: 0 auto;
     margin-top: 22px; }
-  .main__social {
-    display: block;
-    text-align: center; }
-  .main__icon {
-    border-radius: 50%;
-    background-color: #BFBFBF;
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    margin: 10px 12px; }
 
 .about__description {
   margin-left: 90px;
@@ -1031,31 +1010,11 @@ p {
 
 .edition__left {
   padding-left: 110px; }
-  .edition__left-advertisement {
-    width: 77%;
-    color: #FFFFFF; }
-    .edition__left-advertisement-description {
-      background-color: #2f879f;
-      margin-top: 25px;
-      letter-spacing: 2px;
-      font-family: verdana;
-      text-align: center;
-      padding-top: 110px; }
-    .edition__left-advertisement-image {
-      background-image: url("../images/3.jpeg");
-      background-repeat: no-repeat;
-      background-size: contain;
-      height: 224px; }
-    .edition__left-advertisement-text {
-      font-size: 20px;
-      display: block; }
-    .edition__left-advertisement-subtext {
-      font-size: 10px;
-      display: block; }
   .edition__left-title {
     background-color: #1569B4;
     display: inline-block;
-    border-radius: 7px; }
+    border-radius: 7px;
+    margin-top: 20px; }
     .edition__left-title h2 {
       font-family: 'Libel-Suit';
       color: #FFFFFF;
@@ -1081,6 +1040,163 @@ p {
       text-align: center;
       font-size: 28px;
       line-height: 1.2; }
+
+.edition__gallery {
+  margin-left: -25px; }
+  .edition__gallery-image {
+    width: 80%;
+    display: block;
+    margin: auto; }
+  .edition__gallery-text {
+    display: block;
+    text-align: center;
+    font-family: Verdana;
+    color: #6c6d70;
+    font-size: 14.5px; }
+  .edition__gallery-container {
+    margin-bottom: 20px; }
+
+.edition__advertisement {
+  width: 77%;
+  color: #FFFFFF; }
+  .edition__advertisement-right {
+    width: 91.4%; }
+  .edition__advertisement-description {
+    background-color: #555555;
+    margin-top: 25px;
+    letter-spacing: 2px;
+    font-family: verdana;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 110px; }
+    .edition__advertisement-description-right {
+      margin-top: 0; }
+  .edition__advertisement-image {
+    background-image: url("../images/cellphone.jpeg");
+    background-size: contain;
+    height: 220px; }
+  .edition__advertisement-text {
+    font-size: 20px;
+    display: block; }
+  .edition__advertisement-subtext {
+    font-size: 10px;
+    display: block; }
+
+.social {
+  margin-left: 30px;
+  margin-top: 30px;
+  display: inline-block; }
+  .social--footer {
+    display: block;
+    text-align: center; }
+  .social__icon {
+    display: inline-block;
+    margin: 10px 12px;
+    width: 65px;
+    height: 65px; }
+    .social__icon--container {
+      border-radius: 50%;
+      background: white;
+      background: white;
+      background: -moz-linear-gradient(top, white 0%, #f2f2f2 73%, #e8e8e8 88%, #e8e8e8 99%, #fcfcfc 100%);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(73%, #f2f2f2), color-stop(88%, #e8e8e8), color-stop(99%, #e8e8e8), color-stop(100%, #fcfcfc));
+      background: -webkit-linear-gradient(top, white 0%, #f2f2f2 73%, #e8e8e8 88%, #e8e8e8 99%, #fcfcfc 100%);
+      background: -o-linear-gradient(top, white 0%, #f2f2f2 73%, #e8e8e8 88%, #e8e8e8 99%, #fcfcfc 100%);
+      background: -ms-linear-gradient(top, white 0%, #f2f2f2 73%, #e8e8e8 88%, #e8e8e8 99%, #fcfcfc 100%);
+      background: linear-gradient(to bottom, white 0%, #f2f2f2 73%, #e8e8e8 88%, #e8e8e8 99%, #fcfcfc 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcfcfc', GradientType=0 ); }
+    .social__icon-whatsapp {
+      width: 25px;
+      display: block;
+      margin: auto;
+      padding-top: 20px; }
+
+.interview__main-container {
+  margin-top: 5px; }
+
+.interview__main-title {
+  color: #FFFFFF;
+  font-family: 'Libel-Suit';
+  padding: 15px 20px;
+  background-color: #1569B4;
+  display: inline-block;
+  margin-left: 90px;
+  border-radius: 7px;
+  margin-top: 0; }
+
+.interview__gallery {
+  margin-left: 82px; }
+  .interview__gallery-profile {
+    text-align: center;
+    display: inline-block;
+    vertical-align: text-top;
+    color: #6c6d70;
+    margin-top: 49px; }
+    .interview__gallery-profile--one {
+      margin-right: 60px; }
+    .interview__gallery-profile--six {
+      margin-right: 10px; }
+    .interview__gallery-profile--eight {
+      margin-right: 30px; }
+    .interview__gallery-profile--ten {
+      margin-left: 10px; }
+    .interview__gallery-profile--eleven {
+      margin-left: 40px;
+      margin-right: 85px; }
+    .interview__gallery-profile--twelve {
+      margin-left: 67px;
+      margin-right: 67px; }
+    .interview__gallery-profile--thirteen {
+      margin-left: 25px; }
+    .interview__gallery-profile--fourteen {
+      margin-left: 40px;
+      margin-right: 55px; }
+    .interview__gallery-profile--fifteen {
+      margin-left: 40px;
+      margin-right: 40px; }
+    .interview__gallery-profile--sixteen {
+      margin-left: 46px; }
+    .interview__gallery-profile--seventeen {
+      margin-left: 40px;
+      margin-right: 96px; }
+  .interview__gallery-image {
+    width: 85%; }
+    .interview__gallery-image--increase {
+      width: 115%; }
+  .interview__gallery-text {
+    display: block; }
+    .interview__gallery-text-space {
+      margin-top: 10px; }
+
+.advertisement__image {
+  background-image: url("../images/cellphone.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 230px;
+  margin-top: 24px; }
+  .advertisement__image-second {
+    background-image: url("../images/3.jpeg");
+    height: 218px; }
+
+.advertisement__description {
+  background-color: #555555;
+  letter-spacing: 2px;
+  font-family: verdana;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 120px;
+  color: #FFFFFF;
+  width: 71%; }
+  .advertisement__description-second {
+    background-color: #2f879f; }
+
+.advertisement__text {
+  font-size: 20px;
+  display: block; }
+
+.advertisement__subtext {
+  font-size: 10px;
+  display: block; }
 
 .vertical-center--inline:before {
   content: "";
