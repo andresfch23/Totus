@@ -62,7 +62,7 @@
             width: 91.4%;
         }
         &-description {
-            background-color: $gray-darker;
+            background-color: $blue-sky;
             margin-top: 25px;
             letter-spacing: 2px;
             font-family: verdana;
@@ -71,6 +71,7 @@
             padding-bottom: 110px;
             &-right {
                 margin-top: 0;
+                background-color: $gray-darker;
             }
         }
         &-image {

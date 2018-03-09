@@ -1062,7 +1062,7 @@ p {
   .edition__advertisement-right {
     width: 91.4%; }
   .edition__advertisement-description {
-    background-color: #555555;
+    background-color: #2f879f;
     margin-top: 25px;
     letter-spacing: 2px;
     font-family: verdana;
@@ -1070,7 +1070,8 @@ p {
     padding-top: 110px;
     padding-bottom: 110px; }
     .edition__advertisement-description-right {
-      margin-top: 0; }
+      margin-top: 0;
+      background-color: #555555; }
   .edition__advertisement-image {
     background-image: url("../images/cellphone.jpeg");
     background-size: contain;
@@ -1123,6 +1124,15 @@ p {
   margin-left: 90px;
   border-radius: 7px;
   margin-top: 0; }
+  .interview__main-title--first {
+    font-size: 35px;
+    padding: 12px 20px;
+    margin-top: 16px;
+    margin-bottom: 16px; }
+  .interview__main-title--third {
+    padding: 12px 57px;
+    font-size: 35px;
+    margin-top: 16px; }
 
 .interview__gallery {
   margin-left: 82px; }
@@ -1163,20 +1173,111 @@ p {
     width: 85%; }
     .interview__gallery-image--increase {
       width: 115%; }
+      .interview__gallery-image--increase-two {
+        width: 104%; }
   .interview__gallery-text {
     display: block; }
     .interview__gallery-text-space {
       margin-top: 10px; }
+    .interview__gallery-text-expand {
+      width: 115%; }
+      .interview__gallery-text-expand-two {
+        width: 104%; }
+
+.interview__question-text {
+  color: #1569B4;
+  font-size: 17.5px;
+  font-family: Verdana;
+  text-align: justify; }
+
+.interview__question-answer {
+  color: #6c6d70;
+  font-family: Verdana;
+  font-size: 16px;
+  text-align: justify;
+  padding-right: 10px; }
+  .interview__question-answer-space {
+    margin-bottom: 0; }
+
+.interview__question-space {
+  margin-left: 90px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.interview-one__first-image {
+  margin-left: 90px;
+  width: 78%;
+  height: 507px; }
+
+.interview-one__fifth-image {
+  width: 32.1%;
+  float: left;
+  margin-right: 23px;
+  margin-bottom: 1px; }
+
+.interview-one__sixth-image {
+  float: right;
+  width: 46%;
+  margin-left: 20px;
+  padding-top: 11px; }
+
+.interview-one__tag {
+  position: absolute;
+  left: 296px;
+  top: 237px;
+  font-size: 21px;
+  padding: 7px 10px; }
+
+.interview-one__profile {
+  display: inline-block;
+  width: 44%; }
+
+.interview-one__questions {
+  width: 56%;
+  float: right;
+  margin-top: 73px;
+  margin-left: 0px;
+  padding-left: 10px;
+  text-align: justify;
+  padding-right: 13px; }
+
+.interview-one__photos {
+  margin-left: 90px;
+  margin-bottom: 24px; }
+
+.interview-one__photo {
+  width: 29%;
+  margin-right: 14px; }
+  .interview-one__photo-one {
+    width: 29.12%; }
+  .interview-one__photo-two {
+    width: 29%; }
+  .interview-one__photo-three {
+    width: 36.7%; }
+
+.interview-one__container-info {
+  margin-top: 4px; }
+
+.interview-two__first-image {
+  float: left;
+  width: 48.5%;
+  margin-right: 20px;
+  padding-top: 9px; }
+
+.interview-two__profile {
+  margin-left: 90px; }
 
 .advertisement__image {
   background-image: url("../images/cellphone.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 230px;
-  margin-top: 24px; }
+  margin-top: 24px;
+  margin-left: 10px; }
   .advertisement__image-second {
     background-image: url("../images/3.jpeg");
-    height: 218px; }
+    height: 218px;
+    margin-top: 0px; }
 
 .advertisement__description {
   background-color: #555555;
@@ -1186,9 +1287,11 @@ p {
   padding-top: 90px;
   padding-bottom: 120px;
   color: #FFFFFF;
-  width: 71%; }
+  width: 71%;
+  margin-left: 10px; }
   .advertisement__description-second {
-    background-color: #2f879f; }
+    background-color: #2f879f;
+    margin-top: 23px; }
 
 .advertisement__text {
   font-size: 20px;
