@@ -1153,6 +1153,37 @@ p {
       padding-left: 28px;
       padding-right: 59px;
       margin-bottom: 24px; }
+    .interview__main-title-head--nineth {
+      padding-right: 30px;
+      font-size: 36px;
+      margin-bottom: 27px; }
+    .interview__main-title-head--tenth {
+      padding-left: 10px;
+      padding-right: 24px;
+      margin-bottom: 20px; }
+    .interview__main-title-head--eleventh {
+      padding-left: 10px;
+      padding-right: 24px;
+      margin-bottom: 20px;
+      font-size: 29.2px; }
+    .interview__main-title-head--twelfth {
+      padding-right: 51px;
+      margin-bottom: 14px; }
+    .interview__main-title-head--fourteenth {
+      font-size: 29.4px;
+      padding: 14px 22px;
+      margin-top: 16px;
+      margin-bottom: 23px; }
+    .interview__main-title-head--fifteenth {
+      font-size: 29.4px;
+      padding: 12px 32px;
+      margin-top: 16px;
+      margin-bottom: 15px;
+      padding-left: 10px; }
+    .interview__main-title-head--sixteenth {
+      padding-right: 37px;
+      font-size: 36px;
+      margin-bottom: 20px; }
 
 .interview__main-subtitle {
   font-family: 'Libel-Suit';
@@ -1261,6 +1292,12 @@ p {
   .interview__question-space-profile {
     margin-top: 58px;
     margin-left: 90px; }
+    .interview__question-space-profile--nine {
+      margin-top: 72px; }
+    .interview__question-space-profile--twelve {
+      margin-top: 94px; }
+  .interview__question-space-paragraph {
+    margin-top: 32px; }
 
 .interview-one__first-image {
   margin-left: 90px;
@@ -1435,6 +1472,28 @@ p {
   left: 175px;
   top: 12px; }
 
+.interview-nine__profile {
+  margin-left: 90px;
+  position: relative; }
+
+.interview-nine__first-image {
+  float: left;
+  width: 50.6%;
+  margin-right: 18px; }
+
+.interview-nine__second-image {
+  float: right;
+  width: 55%;
+  margin-left: 23px; }
+
+.interview-nine__tag {
+  position: absolute;
+  padding: 6px 34px;
+  font-size: 21.3px;
+  left: 271px;
+  top: 12px;
+  padding-left: 42px; }
+
 .interview-eigth__profile {
   margin-left: 90px;
   position: relative; }
@@ -1451,6 +1510,178 @@ p {
   left: 291px;
   top: 9px;
   padding-right: 6px; }
+
+.interview-ten__first-image {
+  float: left;
+  width: 98%;
+  margin-bottom: 21px; }
+
+.interview-ten__tag {
+  position: absolute;
+  padding: 6px 22px;
+  font-size: 21.3px;
+  right: 30px;
+  top: 251px; }
+
+.interview-ten__profile {
+  margin-left: 90px;
+  position: relative; }
+
+.interview-eleven__first-image {
+  float: right;
+  width: 90%;
+  margin-bottom: 21px;
+  margin-left: 40px;
+  padding-right: 17px;
+  padding-left: 3px; }
+
+.interview-eleven__second-image {
+  float: left;
+  width: 41%;
+  margin-right: 28px; }
+
+.interview-eleven__third-image {
+  width: 93%;
+  margin-left: 16px; }
+  .interview-eleven__third-image-container {
+    margin-left: 11px;
+    float: right;
+    width: 48.4%; }
+
+.interview-eleven__tag {
+  position: absolute;
+  padding: 6px 18px;
+  font-size: 21.3px;
+  left: -94px;
+  top: 189px;
+  padding-right: 14px; }
+
+.interview-eleven__profile {
+  margin-left: 90px;
+  position: relative; }
+
+.interview-twelve__first-image {
+  float: left;
+  width: 61%;
+  margin-right: 15px; }
+
+.interview-twelve__tag {
+  position: absolute;
+  padding: 6px 22px;
+  font-size: 21.3px;
+  right: 177px;
+  top: 25px; }
+
+.interview-twelve__profile {
+  margin-left: 90px;
+  position: relative; }
+
+.interview-thirteen__first-image {
+  float: left;
+  width: 63%;
+  margin-right: 15px; }
+
+.interview-thirteen__second-image {
+  float: left;
+  width: 47%;
+  margin-right: 18px; }
+
+.interview-thirteen__third-image {
+  float: right;
+  width: 43%;
+  margin-left: 20px; }
+
+.interview-thirteen__fourth-image {
+  float: left;
+  width: 50%;
+  margin-right: 11px; }
+
+.interview-thirteen__tag {
+  position: absolute;
+  bottom: -9px;
+  left: -69px;
+  padding: 7px 38px;
+  font-size: 21px; }
+  .interview-thirteen__tag-right {
+    position: absolute;
+    top: 36px;
+    right: 274px;
+    padding: 7px 38px;
+    font-size: 21px; }
+  .interview-thirteen__tag-left {
+    position: absolute;
+    top: 170px;
+    left: 214px;
+    padding: 7px 38px;
+    font-size: 21px; }
+
+.interview-thirteen__profile {
+  position: relative; }
+
+.interview-fourteen__first-image {
+  float: right;
+  width: 53%;
+  margin-right: 15px;
+  margin-left: 21px; }
+
+.interview-fourteen__second-image {
+  float: left;
+  width: 52%;
+  margin-right: 24px; }
+
+.interview-fourteen__tag {
+  position: absolute;
+  bottom: -84px;
+  left: 254px;
+  padding: 7px 21px;
+  font-size: 21px;
+  padding-right: 13px; }
+
+.interview-fourteen__profile {
+  position: relative; }
+  .interview-fourteen__profile-space {
+    margin-left: 90px;
+    margin-top: 90px; }
+
+.interview-fifteen__first-image {
+  float: left;
+  width: 47%;
+  margin-right: 15px; }
+
+.interview-fifteen__tag {
+  position: absolute;
+  bottom: -84px;
+  left: 254px;
+  padding: 7px 21px;
+  font-size: 21px;
+  padding-right: 13px; }
+
+.interview-fifteen__profile {
+  position: relative;
+  margin-left: 90px; }
+  .interview-fifteen__profile-space {
+    margin-left: 90px;
+    margin-top: 90px; }
+
+.interview-sixteen__first-image {
+  float: left;
+  width: 46%;
+  margin-right: 15px; }
+
+.interview-sixteen__tag {
+  position: absolute;
+  bottom: -70px;
+  left: 248px;
+  padding: 7px 21px;
+  font-size: 21px;
+  padding-right: 13px; }
+
+.interview-sixteen__profile {
+  position: relative;
+  margin-left: 90px; }
+  .interview-sixteen__profile-space {
+    margin-left: 90px;
+    margin-top: 90px; }
 
 .advertisement__image {
   background-image: url("../images/cellphone.jpeg");

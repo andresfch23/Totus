@@ -46,8 +46,7 @@ class Interview7 extends Component {
                     <div className="interview__question interview__question-space">
                         <span className="interview__question-text">TOTUS TUUS. ¿Cómo fue el matrimonio de ustedes?</span>
                         <p className="interview__question-answer interview__question-answer-space">R/:Fue un matrimonio sencillo pero muy concurrido. La misa fue concelebrada por cinco sacerdotes, y nos casó el padre Fernando Umaña Montoya, quien era en ese momento el director del Foyer de Charité.</p>
-                        <p className="interview__question-answer interview__question-answer-space">En la recepción le dimos una serenata a la Virgen Reina de la Paz de Medjugorje, consagrando nuestro hogar y poniéndolo bajo su manto.
-                        </p>
+                        <p className="interview__question-answer interview__question-answer-space">En la recepción le dimos una serenata a la Virgen Reina de la Paz de Medjugorje, consagrando nuestro hogar y poniéndolo bajo su manto.</p>
                         <p className="interview__question-answer">La verdad, fue un matrimonio bastante diferente, éramos un par de niños, yo de 21 años de edad y Felipe de 25 recién cumplidos. No teníamos un centavo, pero estábamos seguros de querer estar juntos por el resto de nuestras vidas.</p>
                         <span className="interview__question-text">7- TOTUS TUUS ¿Fue apresurado casarse a esa edad?</span>
                         <p className="interview__question-answer interview__question-answer-space">R/:Hoy en día le doy gracias a Dios de habernos casado tan jóvenes. Obviamente en muchas cosas éramos unos niños inmaduros, pero Dios nos fue enseñando a construir nuestro hogar</p>
