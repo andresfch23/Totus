@@ -34,24 +34,24 @@ const AppRoutes = () => {
                 <Route exact path="/quienes-somos" component={About} />
                 <Route exact path="/ediciones" component={Editions} />
                 <Route exact path="/entrevistas" component={Interviews} />
-                <Route exact path="/entrevista/wilson-lopez" component={Interview1} />
-                <Route exact path="/entrevista/rochi-stevenson" component={Interview2} />
-                <Route exact path="/entrevista/luna-eikar" component={Interview3} />
-                <Route exact path="/entrevista/alejandro-ordoñez" component={Interview4} />
-                <Route exact path="/entrevista/amada-rosa-perez" component={Interview5} />
-                <Route exact path="/entrevista/celines-diaz" component={Interview6} />
-                <Route exact path="/entrevista/felipe-arias" component={Interview7} />
-                <Route exact path="/entrevista/maria-angelica" component={Interview8} />
-                <Route exact path="/entrevista/juan-manuel-cotelo" component={Interview9} />
-                <Route exact path="/entrevista/son-by-4" component={Interview10} />
-                <Route exact path="/entrevista/jesse-demara" component={Interview11} />
+                <Route exact path="/entrevista/rochi-stevenson" component={Interview1} />
+                <Route exact path="/entrevista/alejandro-ordoñez" component={Interview2} />
+                <Route exact path="/entrevista/celines-diaz" component={Interview3} />
+                <Route exact path="/entrevista/luna-eikar" component={Interview4} />
+                <Route exact path="/entrevista/wilson-lopez" component={Interview5} />
+                <Route exact path="/entrevista/felipe-arias" component={Interview6} />
+                <Route exact path="/entrevista/maria-angelica" component={Interview7} />
+                <Route exact path="/entrevista/jesse-demara" component={Interview8} />
+                <Route exact path="/entrevista/ruben-garcia" component={Interview9} />
+                <Route exact path="/entrevista/joan-sanchez" component={Interview10} />
+                <Route exact path="/entrevista/juan-manuel-cotelo" component={Interview11} />
                 <Route exact path="/entrevista/hermana-ines-de-jesus" component={Interview12} />
-                <Route exact path="/entrevista/ricardo-castañon" component={Interview13} />
-                <Route exact path="/entrevista/ruben-garcia" component={Interview14} />
-                <Route exact path="/entrevista/joan-sanchez" component={Interview15} />
-                <Route exact path="/entrevista/fernando-casanova" component={Interview16} />
-                <Route exact path="/entrevista/padre-angel-espinosa" component={Interview17} />
-                <Route exact path="/entrevista/dumas-y-mary" component={Interview18} />
+                <Route exact path="/entrevista/son-by-4" component={Interview13} />
+                <Route exact path="/entrevista/fernando-casanova" component={Interview14} />
+                <Route exact path="/entrevista/ricardo-castañon" component={Interview15} />
+                <Route exact path="/entrevista/amada-rosa-perez" component={Interview16} />
+                <Route exact path="/entrevista/dumas-y-mary" component={Interview17} />
+                <Route exact path="/entrevista/padre-angel-espinosa" component={Interview18} />
                 <Route exact path="/" component={Home} />
                 <Route component={Page404} />
             </Switch>
