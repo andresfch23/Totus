@@ -10,7 +10,7 @@ class Interview9 extends Component {
                 <div className="grid__item three-quarters">
                     <div><h2 className="interview__main-title interview__main-title-head interview__main-title-head--nineth">“Un homosexual alcanzado por la misericordia de Dios”</h2></div>
                         <div className="interview-nine__profile">
-                            <img className="interview-nine__first-image" src={FirstImage}></img>
+                            <img className="interview-nine__first-image" src={FirstImage} alt="Foto de Ruben Garcia"></img>
                             <h3 className="interview__main-title interview-nine__tag">Ruben Garcia</h3>
                         </div>
                         <div className="interview__question interview__question-space-profile interview__question-space-profile--nine">
@@ -27,7 +27,7 @@ class Interview9 extends Component {
                             <p className="interview__question-answer">R/: Es una mujer muy especial, porque cuando yo me fui de mi casa y llegue llorando a la parroquia de la advocación de Guadalupe, ella me hizo sentir en mi corazón todo lo que mi mama sufrió cuando me fui de la casa, cuando fui rebelde,cuando la ofendía con mis palabras. Mamita Maria es ese modelo ejemplar de sencillez y humildad, y nosotros los católicos nos tenemos que sentir orgullosos porque tenemos una gran mamá, llena de la presencia de Dios y debemos tener en cuenta que ella jamás se roba la gloria de Dios, ella nos lleva a la presencia de su hijo Jesús.</p>
                         </div>
                         <div className="interview__question interview__question-space">
-                            <img className="interview-nine__second-image" src={SecondImage}></img>
+                            <img className="interview-nine__second-image" src={SecondImage} alt="Ruben dando una conferencia"></img>
                             <span className="interview__question-text">TOTUS TUUS. ¿Consideras que Jesús te ha sanado completamente?</span>
                             <p className="interview__question-answer">R/: Esto realmente es un proceso, yo voy a cumplir 44 años y de repente hay etapas en mi vida que me siento como de 13 o 14 años, hay algo en el apostolado que se llama “la importancia de las amistades heterosexuales sanas”, yo con mis amigos he sanado muchas cosas de mi pasado, complejos, inferioridades, pero de una forma u otra cada día el Señor sigue sanando mi corazón, mi mente, sigue sanando esa identidad que perdí durante años, hoy en día me doy cuenta que antes me daba miedo decir la palabra ‘soy un hombre’ yo para todo decía soy una mujer en un cuerpo de hombre, pero, hoy puedo decir con claridad a pesar de mi atracción que yo ante los ojos de Papá Dios soy un hombre.</p>
                         </div>

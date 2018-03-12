@@ -1184,6 +1184,15 @@ p {
       padding-right: 37px;
       font-size: 36px;
       margin-bottom: 20px; }
+    .interview__main-title-head--seventeenth {
+      font-size: 29px;
+      padding: 17px 22px; }
+    .interview__main-title-head--eighteenth {
+      font-size: 29px;
+      padding: 18px 38px;
+      margin-bottom: 53px;
+      padding-left: 21px;
+      padding-top: 15px; }
 
 .interview__main-subtitle {
   font-family: 'Libel-Suit';
@@ -1298,6 +1307,14 @@ p {
       margin-top: 94px; }
   .interview__question-space-paragraph {
     margin-top: 32px; }
+  .interview__question-space--seventeenth {
+    display: inline-block;
+    width: 66%;
+    padding-left: 90px;
+    margin-top: 20px; }
+
+.interview__question--seventeen {
+  margin-bottom: 24px; }
 
 .interview-one__first-image {
   margin-left: 90px;
@@ -1668,6 +1685,11 @@ p {
   width: 46%;
   margin-right: 15px; }
 
+.interview-sixteen__second-image {
+  float: left;
+  width: 51.5%;
+  margin-right: 23px; }
+
 .interview-sixteen__tag {
   position: absolute;
   bottom: -70px;
@@ -1680,6 +1702,57 @@ p {
   position: relative;
   margin-left: 90px; }
   .interview-sixteen__profile-space {
+    margin-left: 90px;
+    margin-top: 90px; }
+
+.interview-seventeen__first-image {
+  float: left;
+  width: 61.5%;
+  margin-right: 17px; }
+
+.interview-seventeen__other-images {
+  width: 96%;
+  margin-left: 10px;
+  display: block;
+  margin-top: 18px; }
+
+.interview-seventeen__tag {
+  position: absolute;
+  bottom: -70px;
+  left: 248px;
+  padding: 7px 21px;
+  font-size: 21px;
+  padding-right: 13px; }
+
+.interview-seventeen__profile {
+  position: relative;
+  margin-left: 90px; }
+  .interview-seventeen__profile-space {
+    margin-left: 90px;
+    margin-top: 90px; }
+
+.interview-seventeen__container-images {
+  width: 34%;
+  float: right;
+  margin-top: 11px; }
+
+.interview-eighteen__first-image {
+  float: left;
+  width: 53.5%;
+  margin-right: 19px; }
+
+.interview-eighteen__tag {
+  position: absolute;
+  top: 7px;
+  left: 371px;
+  padding: 7px 14px;
+  font-size: 21px;
+  padding-right: 6px; }
+
+.interview-eighteen__profile {
+  position: relative;
+  margin-left: 90px; }
+  .interview-eighteen__profile-space {
     margin-left: 90px;
     margin-top: 90px; }
 

@@ -10,7 +10,7 @@ class Interview10 extends Component {
                     <div><h2 className="interview__main-title interview__main-title-head interview__main-title-head--tenth">“No te me vas a escapar, Yo te elegí para esto”
                     </h2></div>
                     <div className="interview-ten__profile">
-                        <img className="interview-ten__first-image" src={FirstImage}></img>
+                        <img className="interview-ten__first-image" src={FirstImage} alt="Foto de presentacion de Joan Sanchez tocando guitarra"></img>
                         <h3 className="interview__main-title interview-ten__tag">Joan Sanchez</h3>
                     </div>
                     <div className="interview__question interview__question-space">

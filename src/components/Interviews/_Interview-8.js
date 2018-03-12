@@ -10,7 +10,7 @@ class Interview8 extends Component {
                     <div><h2 className="interview__main-title interview__main-title-head interview__main-title-head--seventh">“No encontré al Señor, Él me encontró a mí. El Señor no está perdido”
                     </h2></div>
                     <div className="interview-eigth__profile">
-                        <img className="interview-eigth__first-image" src={FirstImage}></img>
+                        <img className="interview-eigth__first-image" src={FirstImage} alt="Foto de Jesse Demara"></img>
                         <h3 className="interview__main-title interview-eigth__tag">Jesse Demara</h3>
                     </div>
                     <div className="interview__question interview__question-space-profile">

@@ -11,7 +11,7 @@ class Interview5 extends Component {
                         <h2 className="interview__main-title interview__main-title interview__main-title-head--fifth">Halloween no es un
                         juego de niños</h2>
                         <h3 className="interview__main-title interview-five__tag">Wilson Lopez</h3>
-                        <img className="interview-five__first-image" src={FirstImage}></img>
+                        <img className="interview-five__first-image" src={FirstImage} alt="Foto de Wilson"></img>
                         <h2 className="interview__main-subtitle">Confesiones de un Ex - Satánico</h2>
                         <div className="interview__question interview-five__profile-space">
                             <span className="interview__question-text">TOTUS TUUS: 1 . ¿Hay tanto odio en el corazón de un hombre para que se vuelva satánico?</span>

@@ -10,7 +10,7 @@ class Interview16 extends Component {
                 <div className="grid__item three-quarters">
                     <div><h2 className="interview__main-title interview__main-title-head interview__main-title-head--sixteenth"> “Sé que he sido y soy una princesa, hija de un Rey”</h2></div>
                     <div className="interview-sixteen__profile"> 
-                        <img className="interview-sixteen__first-image" src={FirstImage}></img>
+                        <img className="interview-sixteen__first-image" src={FirstImage} alt="Foto de Amada Rosa con la revista Totus Tuus"></img>
                         <h3 className="interview__main-title interview-sixteen__tag">Amada Rosa Perez Ex Actriz y Modelo.</h3>
                     </div>
                     <div className="interview__question interview__question-space-profile">
@@ -36,7 +36,8 @@ class Interview16 extends Component {
                         <span className="interview__question-text">TOTUS TUUS 4. Explícanos el amor de María como lo experimentas en tu vida.</span>
                         <p className="interview__question-answer interview__question-answer-space">R:/ María…, gracias a mi Madre hermosa en los momentos más duros y difíciles de mi vida me enseñó a orar, a perseverar y abrió mi alma para recibir al Espíritu Santo, a Jesucristo, a Dios. Al recibirlo ardía mi corazón, pude entender algunos misterios de la fe en instantes, entendí lo que leía en las sagradas escrituras y lo que sucede en la confesión, la misa, el valor incalculable de los sacramentos, etc. Todo esto sin que un sacerdote o laico me lo explicara y todo conforme a la santa doctrina de la Iglesia Católica.</p>
                         <p className="interview__question-answer">Su tierno amor también lo experimento siempre en lo sencillo, en la gente que me rodea, Ella es muy especial con sus hijos, siempre me enternece el corazón y en muchas ocasiones lloro de gozo al ver y sentir la grandeza del amor de Dios.</p>
-                    </div><div className="interview__question interview__question-space">
+                    </div>
+                    <div className="interview__question interview__question-space">
                         <span className="interview__question-text">TOTUS TUUS 4. Explícanos el amor de María como lo experimentas en tu vida.</span>
                         <p className="interview__question-answer interview__question-answer-space">R:/ María…, gracias a mi Madre hermosa en los momentos más duros y difíciles de mi vida me enseñó a orar, a perseverar y abrió mi alma para recibir al Espíritu Santo, a Jesucristo, a Dios. Al recibirlo ardía mi corazón, pude entender algunos misterios de la fe en instantes, entendí lo que leía en las sagradas escrituras y lo que sucede en la confesión, la misa, el valor incalculable de los sacramentos, etc. Todo esto sin que un sacerdote o laico me lo explicara y todo conforme a la santa doctrina de la Iglesia Católica.</p>
                         <p className="interview__question-answer">Su tierno amor también lo experimento siempre en lo sencillo, en la gente que me rodea, Ella es muy especial con sus hijos, siempre me enternece el corazón y en muchas ocasiones lloro de gozo al ver y sentir la grandeza del amor de Dios.</p>
@@ -55,6 +56,27 @@ class Interview16 extends Component {
                         <p className="interview__question-answer interview__question-answer-space">Mi esposo jamás había vivido la castidad precisamente porque ninguna mujer se lo propuso, cuando empezamos a ser amigos fui muy transparente con él, nos hicimos novios y a mí no me dio miedo contarle mi nuevo estilo de vida ni perderlo por esto, todo lo contrario, tenía claro que mi corazón, cuerpo, alma y vida ya eran de Dios, si no aceptaba era porque realmente buscaba otra cosa y no amor verdadero y simplemente no era lo que Dios tenía para mí. Mis planes siempre están en las manos de Dios y veo su mano en mi vida.</p>
                         <p className="interview__question-answer interview__question-answer-space">Pero si era el que Dios quería para mí, respetó mi propuesta y luchamos juntos por cumplirla. A un par de meses de casados me sorprendió cuando me dijo “Mamor gracias por enseñarme la castidad, siento que te amo aún más”</p>
                         <p className="interview__question-answer">Claro que esto el mundo no lo promociona porque acabaría negocios de anticonceptivos, preservativos, algunos programas de tv, libros y música que invitan abiertamente al sexo y, algunos otros negocios y programas que los gobiernos están implementando con los mal llamados “derechos reproductivos”. </p>
+                    </div>
+                    <div className="interview__question interview__question-space">
+                        <img className="interview-sixteen__second-image" src={SecondImage} alt="Amada Rosa"></img>
+                        <span className="interview__question-text">TOTUS TUUS 7. El aborto es una palabra dura para ti, pero nos podrías decir, ¿Por que los católicos debemos decir no al aborto y defender la vida y no debemos ser indiferentes a estos temas?</span>
+                        <p className="interview__question-answer interview__question-answer-space">R:/ Palabra y experiencia dura para toda mujer que ha pasado por esta dolorosa tragedia y lo más triste es que muchos siguen viviendo el tormentoso síndrome post-aborto. </p>
+                        <p className="interview__question-answer interview__question-answer-space">Una persona que dice ser Cristiana Católica debe luchar por ser coherente con lo que dice, ya que estamos proclamando a Cristo, y su Evangelio lo debemos aplicar en nuestra vida, sino simplemente nos quedaríamos en ser un fariseo más en la historia. </p>
+                        <p className="interview__question-answer">Vivir conforme al Evangelio significa no solo cumplir sus mandamientos, es vivir contra corriente, bien cabe citar Rom 12,2 “ no se adapten a los criterios de este mundo, al contrario, transfórmense, renueven su interior cambien su manera de pensar para que así cambie su manera de vivir y puedan descubrir cual es la voluntad de Dios, lo que es bueno, lo que le agrada, lo perfecto”. Es actuar como Jesús, quien anunciaba el bien y denunciaba el mal. No solo debemos defender la vida sino todo aquello que sea por y para nuestro bien. Cuanto sufrimiento nos evitaríamos si tan solo fuéramos humildes y dóciles a las enseñanzas de Dios.</p>
+                    </div>
+                    <div className="interview__question interview__question-space">
+                        <span className="interview__question-text">TOTUS TUUS 8. ¿Cómo es tu relación con tu ángel de la guarda?</span>
+                        <p className="interview__question-answer">R/: Es mi mejor amigo, siempre me acompaña a todos lados, oro con el cómo cuando era niña, de rodillas junto a mi cama y le pido que ore mucho por mi conversión. </p>
+                    </div>
+                    <div className="interview__question interview__question-space">
+                        <span className="interview__question-text">TOTUS TUUS 9. ¿Porque a un católico le debe interesar la política del país?</span>
+                        <p className="interview__question-answer interview__question-answer-space">R/: Simplemente porque somos ciudadanos y no debemos ser indiferentes a lo que sucede en nuestro país. Quienes confesamos ser cristianos católicos somos responsables de saber a quienes elegimos como nuestros gobernantes o representantes, saber qué intereses los mueven. El poder político sólo se ejerce legítimamente si se busca el bien común de la sociedad a través de medios moralmente lícitos (cf. Catecismo de la Iglesia Católica, n.1903).</p>
+                        <p className="interview__question-answer interview__question-answer-space">Aristóteles, en la Ética Nicomáquea, dice que “el bien es deseable en cuanto interesa a un solo individuo; pero tiene un carácter más bello y divino cuando interesa a un pueblo”.</p>
+                        <p className="interview__question-answer">Para nosotros sería muchísimo más fácil la defensa de la Vida, la Mujer, la Familia, el Matrimonio, etc, si eligiéramos políticos que igualmente los defendieran. Pero como hay indiferencia y desconocimiento se filtran leyes a favor del aborto, la eutanasia, drogadicción, el mal llamado “matrimonio gay”, etc.</p>
+                    </div>
+                    <div className="interview__question interview__question-space">
+                        <span className="interview__question-text">TOTUS TUUS 10. Un saludo para nuestros lectores</span>
+                        <p className="interview__question-answer">R/: Papá Dios derrame abundantes bendiciones en sus corazones y la Virgencita esté siempre acompañándolos. Les comparto esta bella frase de uno de mis santos favoritos: “Nos has hecho para ti Señor y nuestro corazón estará inquieto hasta que descanse en Ti”. San Agustín.</p>
                     </div>
                 </div> 
                 <div className="grid__item one-quarter">

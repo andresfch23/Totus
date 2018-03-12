@@ -14,7 +14,7 @@ class Interview1 extends Component {
                 <div className="grid__item three-quarters">
                     <div><h2 className="interview__main-title interview__main-title-head">“ÉL ES MI MANAGER”</h2></div>
                     <div className="interview-one__profile">
-                        <img className="interview-one__first-image" src={FirstImage}></img>
+                        <img className="interview-one__first-image" src={FirstImage} alt="foto de perfil de Rochi Stevenson"></img>
                         <h3 className="interview__main-title interview-one__tag">ROCHI STEVENSON</h3>
                     </div>
                     <div className="interview-one__questions">

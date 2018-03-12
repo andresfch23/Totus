@@ -10,7 +10,7 @@ class Interview4 extends Component {
                 <div className="grid__item three-quarters">
                     <div><h2 className="interview__main-title interview__main-title-head interview__main-title-head--fourth">Luna Eikar</h2></div>
                     <div className="interview-four__profile">
-                        <img className="interview-four__first-image" src={FirstImage}></img>
+                        <img className="interview-four__first-image" src={FirstImage} alt="Foto de perfil de Luna Eikar"></img>
                         <div className="interview__question">
                             <p className="interview__question-answer interview__question-answer-space">Hermanos, que la paz y el amor del Señor esté con ustedes.</p>
                             <p className="interview__question-answer interview__question-answer-space">Soy Luna Eikar, cantautora Católica Colombiana, y hoy

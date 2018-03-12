@@ -9,7 +9,7 @@ class Interview15 extends Component {
                 <div className="grid__item three-quarters">
                     <div><h2 className="interview__main-title interview__main-title-head interview__main-title-head--fifteenth">“Haber estudiado el milagro eucarístico me parece la historia más extraordinaria” </h2></div>
                         <div className="interview-fifteen__profile"> 
-                            <img className="interview-fifteen__first-image" src={FirstImage}></img>
+                            <img className="interview-fifteen__first-image" src={FirstImage} alt="Foto de Ricardo Castañon"></img>
                             <h3 className="interview__main-title interview-fifteen__tag"> Ricardo Castañón</h3>
                         </div>
                         <div className="interview__question">

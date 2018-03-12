@@ -9,7 +9,7 @@ class Interview2 extends Component {
                 <div className="grid__item three-quarters">
                     <div><h2 className="interview__main-title interview__main-title-head interview__main-title-head--second">Ex Procurador Ordoñez y su Vida Espiritual</h2></div>
                     <div className="interview-two__profile">
-                        <img className="interview-two__first-image" src={FirstImage}></img>
+                        <img className="interview-two__first-image" src={FirstImage} alt="Foto del ex procurador Alejandro Ordoñez"></img>
                         <h3 className="interview__main-title interview-two__tag">ALEJANDRO ORDOÑEZ</h3>
                     </div>
                     <div className="interview__question interview__question-space-profile">

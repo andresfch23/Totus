@@ -12,7 +12,7 @@ class Interview7 extends Component {
                 <div className="grid__item three-quarters">
                     <div><h2 className="interview__main-title interview__main-title-head interview__main-title-head--seventh">Detrás de un gran hombre, existe una gran mujer.</h2></div>
                     <div className="interview-seven__profile">
-                        <img className="interview-seven__first-image" src={FirstImage}></img>
+                        <img className="interview-seven__first-image" src={FirstImage} alt="Foto de Perfil de Maria Angelica"></img>
                         <h3 className="interview__main-title interview-seven__tag">María Angelica</h3>
                     </div>
                     <div className="interview__question interview__question-space">

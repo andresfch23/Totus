@@ -9,7 +9,7 @@ class Interview3 extends Component {
                 <div className="grid__item three-quarters">
                     <div><h2 className="interview__main-title interview__main-title interview__main-title-head--third">Celinés Díaz Misionera Católica a tiempo completo</h2></div>
                     <div className="interview-three__profile">
-                        <img className="interview-three__first-image" src={FirstImage}></img>
+                        <img className="interview-three__first-image" src={FirstImage} alt="Foto de Celinés Diaz cantando"></img>
                         <div className="interview__question">
                             <span className="interview__question-text">TOTUS TUUS: ¿Quién es Celinés?</span>
                             <p className="interview__question-answer">R:/ Soy una hija de Dios que se sabe amada por él y soy muy feliz. Tengo una familia hermosa, un esposo maravilloso, (estoy recién casada) y muchos hermanos en Cristo que me acompañan en la misión. Hace 9 años tuve mi conversión y desde entonces le sirvo al Señor. Actualmente soy misionera católica a tiempo completo. Amo evangelizar y adorar a Dios con mi vida y mi música.</p>

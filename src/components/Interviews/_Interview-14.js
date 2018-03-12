@@ -10,7 +10,7 @@ class Interview14 extends Component {
                 <div className="grid__item three-quarters">
                     <div><h2 className="interview__main-title interview__main-title-head interview__main-title-head--fourteenth">“El Señor me vio con ojos de misericordia y decidió llamarme a la plenitud de la fe Católica”</h2></div>
                     <div className="interview-fourteen__profile"> 
-                        <img className="interview-fourteen__first-image" src={FirstImage}></img>
+                        <img className="interview-fourteen__first-image" src={FirstImage} alt="Foto de Fernando Casanova"></img>
                         <h3 className="interview__main-title interview-fourteen__tag">Fernando Casanova</h3>
                     </div>
                     <div className="interview__question interview-fourteen__profile-space">
@@ -29,7 +29,7 @@ class Interview14 extends Component {
                         <p className="interview__question-answer interview__question-answer-space">Todas mis expectativas esa noche fueron llenadas y desde entonces trato de participar del sacramento de la eucaristía todos los días al igual que el rosario diariamente y la confesión frecuente, una o dos veces a la semana.</p>
                     </div>
                     <div className="interview__question interview__question-space">
-                        <img className="interview-fourteen__second-image" src={SecondImage} ></img>
+                        <img className="interview-fourteen__second-image" src={SecondImage} alt="Fernando dando una conferencia"></img>
                         <span className="interview__question-text">TOTUS TUUS. ¿Qué fue lo que más te costó al entrar en la Iglesia Católica?</span>
                         <p className="interview__question-answer">R/: Lo más difícil fue alejarme de aquel pasado, pues era todo lo que yo tenía, ese pasado representaba: familiares, amigos y colegas. Cuando entré a la iglesia lo que más me costó fue entender que ya no podía y no puedo ser pastor, ahora soy laico. Algunas cosas de las que me afectaron fueron: las incomprensiones, los ataques, los insultos, el alejamiento y la negación de los amigos. Fue algo que trajo mucha tristeza, pero lo he superado gracias a Dios. Asimismo, llegue a confundir prácticas de piedad con preceptos, es decir, no me daba cuenta que hay cosas que no tengo que practicar para ser un cristiano de verdad. He aprendido que uno debe tener pocas devociones pero constantes, como decimos en mi país, no deberle a cada santo una vela.</p>
                         <span className="interview__question-text">TOTUS TUUS. ¿Cómo fue la reacción de tu esposa y como llego a la Iglesia Católica? </span>

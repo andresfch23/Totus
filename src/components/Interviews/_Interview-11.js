@@ -12,7 +12,7 @@ class Interview11 extends Component {
                     <div><h2 className="interview__main-title interview__main-title-head interview__main-title-head--eleventh">“El corazón de cada uno de nosotros, es el territorio que María quiere conquistar para Dios.”
                     </h2></div>
                     <div className="interview-eleven__profile">
-                        <img className="interview-eleven__first-image" src={FirstImage}></img>
+                        <img className="interview-eleven__first-image" src={FirstImage} alt="Foto de Perfil de Juan Manuel"></img>
                         <h3 className="interview__main-title interview-eleven__tag">Juan Manuel Cotelo</h3>
                     </div>
                     <div className="interview__question interview__question-space">
@@ -32,7 +32,7 @@ class Interview11 extends Component {
                         afecto y me sigue afectando.</p>
                     </div>
                     <div className="interview__question interview__question-space">
-                        <img className="interview-eleven__second-image" src={SecondImage}></img>
+                        <img className="interview-eleven__second-image" src={SecondImage} alt="Poster de la pelicula 'La Ultima cima'"></img>
                         <span className="interview__question-text">TOTUS TUUS ¿Tienes para contarnos una anécdota en
                         especial de algunas de las películas?</span>
                         <p className="interview__question-answer interview__question-answer-space">R/:No hay anécdotas, esto es mucho más que anecdótico, si me quedara ahí sería muy pobre.</p>
@@ -43,7 +43,7 @@ class Interview11 extends Component {
                         <span className="interview__question-text">TOTUS TUUS. En una palabra defina Última cima y Tierra de María.</span>
                         <p className="interview__question-answer">R/: Última cima: cielo y amor, Tierra de María, en una palabra no puedo, es el corazón de cada uno de nosotros, el territorio que María quiere conquistar para Dios. Dejar que María ponga su bandera en nuestro corazón que diga -¡Tú eres mío!- es la misma tierra de Jesús.</p>
                     </div>
-                    <div className="interview-eleven__third-image-container"><img className="interview-eleven__third-image" src={ThirdImage} alt="Maria Angelica y su esposo"></img></div>
+                    <div className="interview-eleven__third-image-container"><img className="interview-eleven__third-image" src={ThirdImage} alt="Poster de la pelicula Mary's Land"></img></div>
                     <div className="interview__question interview__question-space">
                         <span className="interview__question-text">TOTUUS TUUS. ¿Que fue lo que te motivo a dedicarle una película a María?</span>
                         <p className="interview__question-answer interview__question-answer-space">R/:No se contestarlo salvo, con una palabra “Obsesión” fue una obsesión, no un razonamiento, fue algo en oración que sentí y dije ¡Esto es importante! si alguien te dice que te van a presentar el ministro de Justicia, es muy interesante; te voy a presentar a un jugador de Futbol famoso, muy interesante, pero si alguien nos dice, te voy presentar a tu Madre a la que no conoces, Nadie dice que ¡no!.</p>

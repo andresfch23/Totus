@@ -9,7 +9,7 @@ class Interview5 extends Component {
                 <div className="grid__item three-quarters">
                     <div><h2 className="interview__main-title interview__main-title-head interview__main-title-head--sixth">Católico, Periodista y Padre</h2></div>
                     <div className="interview-six__profile"> 
-                        <img className="interview-six__first-image" src={FirstImage}></img>
+                        <img className="interview-six__first-image" src={FirstImage} alt="Foto de Felipe Arias"></img>
                         <h3 className="interview__main-title interview-six__tag">Felipe Arias</h3>
                     </div>
                     <div className="interview__question interview-six__profile-space">

@@ -11,7 +11,7 @@ class Interview13 extends Component {
             <div className="grid">
                 <div className="grid__item three-quarters">
                     <div className="interview__question interview__question-space">
-                        <img className="interview-thirteen__first-image" src={FirstImage}></img>
+                        <img className="interview-thirteen__first-image" src={FirstImage} alt="Son by 4"></img>
                         <span className="interview__question-text">TOTUS TUUS ¿Cómo empieza Son By 4, en qué momento le dicen sí a Dios?</span>
                         <p className="interview__question-answer interview__question-answer-space">R/: JAVI:Para los que no saben somos familia; Jorge y yo somos hermanos, Pedro es mi primo hermano. Empezamos a emprender, realizando todos los sueños en las artes, la música; a obtener el conocimiento, y persiguiendo el sueño que muchos jóvenes tienen en sus corazones.</p>
                         <p className="interview__question-answer interview__question-answer-space">Comenzamos en los años 90, tocando
@@ -30,7 +30,7 @@ class Interview13 extends Component {
                     </div>
                     <div className="interview__question interview__question-space interview-thirteen__profile">
                         <h3 className="interview__main-title interview-thirteen__tag">Jorge</h3>
-                        <img className="interview-thirteen__second-image" src={SecondImage}></img>
+                        <img className="interview-thirteen__second-image" src={SecondImage} alt="Foto de Jorge"></img>
                         <p className="interview__question-answer">somos felices, tenemos nuestra familia, nuestros hijos, vivimos de la providencia de Dios.
                         </p>
                         <span className="interview__question-text">TOTUS TUUS ¿Por qué cantarle a Dios?</span>
@@ -43,7 +43,7 @@ class Interview13 extends Component {
                     </div>
                     <div className="interview__question interview__question-space interview-thirteen__profile">
                         <h3 className="interview__main-title interview-thirteen__tag-right">Jorge</h3>
-                        <img className="interview-thirteen__third-image" src={ThirdImage}></img>
+                        <img className="interview-thirteen__third-image" src={ThirdImage} alt="Foto de Jorge"></img>
                         <span className="interview__question-text">TOTUS TUUS ¿Cómo nace la letra de las canciones?</span>
                         <p className="interview__question-answer">Jorge: Llevamos 15 años teniendo experiencia con el Señor, con su Iglesia, sus Santos, con María, en la Eucaristía, las sagradas escrituras. Son tantas vivencias que tenemos e inclusive experiencias de la comunidad y de ahí salen muchas canciones.</p>
                         <span className="interview__question-text">TOTUS TUUS ¿Qué anécdotas recuerdan que les hayan marcado en estos años de evangelización?</span>
@@ -59,7 +59,7 @@ class Interview13 extends Component {
                     </div>
                     <div className="interview__question interview__question-space interview-thirteen__profile">
                         <h3 className="interview__main-title interview-thirteen__tag-left">Pedro</h3>
-                        <img className="interview-thirteen__fourth-image" src={FourthImage}></img>
+                        <img className="interview-thirteen__fourth-image" src={FourthImage} alt="Foto de Pedro"></img>
                         <span className="interview__question-text">TOTUS TUUS ¿Cómo es la vida espiritual de Son By 4?</span>
                         <p className="interview__question-answer">Pedro: Desde que inició éste proceso de conversión en
                         nuestro pueblo, empezamos con un grupo de oración familiar en casa de mi tía (la mama de Jorge y Carlos Javier), esa era nuestra base, nuestro proyecto comunitario, trabajar para nuestra parroquia. Fray Jorge Betancourt llega siendo nuestro director, él está con nosotros en el programa de televisión. Poco a poco creció la Fundación ABBA NUESTRO, que es una sociedad para mover los medios de comunicación Católicos en Puerto Rico, que tiene base en nuestro pueblo natal, en Ciales.</p>

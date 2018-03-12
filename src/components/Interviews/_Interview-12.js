@@ -10,7 +10,7 @@ class Interview12 extends Component {
                     <div><h2 className="interview__main-title interview__main-title-head interview__main-title-head--twelfth">“Soy un ser humano de lo ordinario, lo extraordinario lo hace todo Cristo”
                     </h2></div>
                     <div className="interview-twelve__profile">
-                        <img className="interview-twelve__first-image" src={FirstImage}></img>
+                        <img className="interview-twelve__first-image" src={FirstImage} alt="Hermana Inés de Jesus tocando guitarra"></img>
                         <h3 className="interview__main-title interview-twelve__tag">Hermana Inés de Jesús</h3>
                     </div>
                     <div className="interview__question interview__question-space-profile interview__question-space-profile--twelve">

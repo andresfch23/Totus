@@ -84,6 +84,17 @@
                     font-size: 36px;
                     margin-bottom: 20px;
                 }
+                &--seventeenth {
+                    font-size: 29px;
+                    padding: 17px 22px;
+                }
+                &--eighteenth {
+                    font-size: 29px;
+                    padding: 18px 38px;
+                    margin-bottom: 53px;
+                    padding-left: 21px;
+                    padding-top: 15px;
+                }
             }
         }
         &-subtitle {
@@ -232,6 +243,15 @@
             &-paragraph {
                 margin-top: 32px;  
             }
+            &--seventeenth {
+                display: inline-block;
+                width: 66%;
+                padding-left: 90px;
+                margin-top: 20px;
+            }
+        }
+        &--seventeen {
+            margin-bottom: 24px;
         }
     }
     &-one {
@@ -646,6 +666,11 @@
             width: 46%;
             margin-right: 15px;
         }
+        &__second-image {
+            float: left;
+            width: 51.5%;
+            margin-right: 23px;
+        }
         &__tag {
             position: absolute;
             bottom: -70px;
@@ -662,6 +687,63 @@
                 margin-top: 90px;
             }
         }    
+    }
+    &-seventeen {
+        &__first-image {
+            float: left;
+            width: 61.5%;
+            margin-right: 17px;
+        }
+        &__other-images {
+            width: 96%;
+            margin-left: 10px;
+            display: block;
+            margin-top: 18px;
+        }
+        &__tag {
+            position: absolute;
+            bottom: -70px;
+            left: 248px;
+            padding: 7px 21px;
+            font-size: 21px;
+            padding-right: 13px;
+        }
+        &__profile {
+            position: relative;
+            margin-left: 90px;
+            &-space {
+                margin-left: 90px;
+                margin-top: 90px;
+            }
+        } 
+        &__container-images {
+            width: 34%;
+            float: right;
+            margin-top: 11px;
+        }   
+    }
+    &-eighteen {
+        &__first-image {
+            float: left;
+            width: 53.5%;
+            margin-right: 19px;
+        }
+        &__tag {
+            position: absolute;
+            top: 7px;
+            left: 371px;
+            padding: 7px 14px;
+            font-size: 21px;
+            padding-right: 6px;
+        }
+        &__profile {
+            position: relative;
+            margin-left: 90px;
+            &-space {
+                margin-left: 90px;
+                margin-top: 90px;
+            }
+        }
     }
 }
 
