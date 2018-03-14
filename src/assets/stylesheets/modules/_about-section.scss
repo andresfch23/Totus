@@ -1,20 +1,20 @@
 .about{
     &__description {
-        margin-left: 90px;
-        margin-top: 20px;
+        margin-left: 6.65%;
+        margin-top: 1.2%;
         width: 35%;
         &-text {
             text-align: justify;
             background-color: $pale-blue;
-            padding-left: 20px;
-            padding-top: 20px;
-            padding-right: 15px;
-            padding-bottom: 70px;
-            font-size: 16px;
+            padding-left: 4.4%;
+            padding-top: 4.4%;
+            padding-right: 3%;
+            padding-bottom: 15%;
+            font-size: 1.18vw;
             font-family: Verdana;
             color: $white;
             line-height: 1.68;
-            margin-top: 25px;
+            margin-top: 5.3%;
         }
         &-content {
             margin-bottom: 0;
@@ -34,13 +34,13 @@
             width: 70%;
             display: inline-block;
             font-family: Verdana;
-            margin-top: 50px;
-            font-size: 15px;
-            text-align: justify; 
+            margin-top: 7%;
+            font-size: 1.1vw;
+            text-align: justify;
             line-height: 1.6;
             &-first {
                 margin-bottom: 0;
-                padding-right: 30px;
+                padding-right: 6%;
             }
         }
     }
@@ -54,26 +54,26 @@
         }
         &-name {
             position: absolute;
-            left: 85px;
-            top: 130px;
+            left: 41%;
+            top: 69%;
             background-color: $blue-dark;
             color: $white;
             border-radius: 7px;
             font-family: 'Libel-Suit';
-            font-size: 20px;
-            padding: 7px 20px;
+            font-size: 1.46vw;
+            padding: 3.6% 9.5%;
         }
     }
     &__biography {
         width: 58%;
     }
     &__image {
-        background-image: url('../images/4.jpg');
+        background-image: url('../images/5.png');
         background-repeat: no-repeat;
         background-size: contain;
-        height: 268px;
-        margin-top: 13px;
-        margin-left: 25px;
-        margin-right: 81px;
+        height: 23vw;
+        margin-top: 2.57%;
+        margin-left: 3%;
+        margin-right: 11%;
     }
 }

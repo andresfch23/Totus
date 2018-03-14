@@ -6,6 +6,7 @@ import ThirdImage from '../../assets/images/interviews/interview1/3.jpeg';
 import FourthImage from '../../assets/images/interviews/interview1/4.jpeg';
 import FifthImage from '../../assets/images/interviews/interview1/5.jpeg';
 import SixthImage from '../../assets/images/interviews/interview1/6.jpeg';
+import SimpleSlider from  '../Carrousel.js';
 
 class Interview1 extends Component {
     render() {
@@ -20,7 +21,7 @@ class Interview1 extends Component {
                     <div className="interview-one__questions">
                         <div className="interview__question">
                             <span className="interview__question-text">TOTUS TUUS: ¿Cuál es tu nombre de pila?</span>
-                            <p className="interview__question-answer">R:/ María Rocío Stevenson Covo pero me dicen Rochi</p>
+                            <p className="interview__question-answer">R:/ María Rocío Stevenson Covo pero me dicen Rochi.</p>
                         </div>
                         <div className="interview__question">
                             <span className="interview__question-text">TOTUS TUUS: Cuando hablamos de Rochi Stevenson, el común de la gente te identifica como una mujer católica muy dulce, buena esposa y mama; ¿Que se siente al saber que eres un gran ejemplo a seguir para muchas personas?</span>
@@ -30,7 +31,7 @@ class Interview1 extends Component {
                     </div>
                     <div className="interview__question interview__question-space">
                         <span className="interview__question-text">TOTUS TUUS: ¿Te inculcaron la fe desde tu niñez?</span>
-                        <p className="interview__question-answer">R:/ Nací en una familia católica, mis papas además de católicos eran practicantes y siempre me enseñaron o me inculcaron la fe católica. Me dieron el ejempló dentro del hogar, íbamos a misa juntos toda la familia, mis padres eran de cursillos de cristiandad, eran de encuentros de pareja y también eran muy espirituales, y digo eran porque mi papa murió en el año 92 y siempre viví en mi casa unidad en el hogar, todo giraba en torno a nuestro Señor</p>
+                        <p className="interview__question-answer">R:/ Nací en una familia católica, mis papas además de católicos eran practicantes y siempre me enseñaron o me inculcaron la fe católica. Me dieron el ejempló dentro del hogar, íbamos a misa juntos toda la familia, mis padres eran de cursillos de cristiandad, eran de encuentros de pareja y también eran muy espirituales, y digo eran porque mi papa murió en el año 92 y siempre viví en mi casa unidad en el hogar, todo giraba en torno a nuestro Señor.</p>
                     </div>
                     <div className="interview__question interview__question-space">
                         <span className="interview__question-text">TOTUS TUUS : ¿La vida de la farándula y del mundo espiritual no están en contraposición? No es difícil para ti estar en estos 2 frentes. </span>
