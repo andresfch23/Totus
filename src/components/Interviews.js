@@ -29,11 +29,9 @@ class Interviews extends Component {
                     <div className="interview__gallery">    
                         <div className="interview__gallery-profile interview__gallery-profile--one">
                             <Link to="entrevista/rochi-stevenson"><img className="interview__gallery-image" src={Profile1} alt="" ></img></Link>
-                            <div>
                                 <span className="interview__gallery-text interview__gallery-text-space">Rochi Stevenson </span>
                                 <span className="interview__gallery-text">Presentadora</span>   
-                                <span className="interview__gallery-text"> de televisión</span>
-                            </div>                    
+                                <span className="interview__gallery-text"> de televisión</span>                    
                         </div>
                         <div className="interview__gallery-profile">
                             <Link to="entrevista/alejandro-ordoñez"><img className="interview__gallery-image" src={Profile2} alt="" ></img></Link>
