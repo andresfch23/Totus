@@ -6,7 +6,6 @@ import ThirdImage from '../../assets/images/interviews/interview1/3.jpeg';
 import FourthImage from '../../assets/images/interviews/interview1/4.jpeg';
 import FifthImage from '../../assets/images/interviews/interview1/5.jpeg';
 import SixthImage from '../../assets/images/interviews/interview1/6.jpeg';
-import SimpleSlider from  '../Carrousel.js';
 
 class Interview1 extends Component {
     render() {
