@@ -42,7 +42,7 @@ class Interview13 extends Component {
                         <p className="interview__question-answer interview__question-answer-space">En la crisis es donde te das cuenta quiénes verdaderamente son tus amigos, tus hermanos. Le damos gracias al Señor porque nos ha quitado la venda de los ojos, decidimos vivir de lo que Dios nos ponga en el camino, “nos tiramos” por amor a Dios a un lugar donde somos incomprendidos.</p>
                     </div>
                     <div className="interview__question interview__question-space interview-thirteen__profile">
-                        <h3 className="interview__main-title interview-thirteen__tag-right">Jorge</h3>
+                        <h3 className="interview__main-title interview-thirteen__tag-right">Javi</h3>
                         <img className="interview-thirteen__third-image" src={ThirdImage} alt="Foto de Jorge"></img>
                         <span className="interview__question-text">TOTUS TUUS ¿Cómo nace la letra de las canciones?</span>
                         <p className="interview__question-answer">Jorge: Llevamos 15 años teniendo experiencia con el Señor, con su Iglesia, sus Santos, con María, en la Eucaristía, las sagradas escrituras. Son tantas vivencias que tenemos e inclusive experiencias de la comunidad y de ahí salen muchas canciones.</p>

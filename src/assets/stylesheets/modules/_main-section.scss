@@ -5,11 +5,11 @@
         width: 90%;
         text-align: center;
         margin: auto;
-        margin-top: 0;
+        margin-top: 5%;
         &-text {
             &-down {
-                padding-bottom: 10px;
-                margin-bottom: 10px;
+                padding-bottom: 1%;
+                margin-bottom: 1%;
                 color: orangered;
                 font-size: 2vw;
             }
@@ -20,15 +20,35 @@
         }
     }
     &__menu {
-        &-section{
-            background-color: $blue;
+        &-section {
+            text-align: center;
             &--blue {
                 &-dark {
                     background-color: $blue-dark;
-                    margin-top: 22px;
+                    margin-top: 5%;
+                    &:hover {
+                        background-image: url('../images/jhoana2.png');
+                        background-repeat: no-repeat;
+                        background-size: 46%;
+                        background-position: 7% 31%;
+                        transition: all 0.5s;
+                        padding: 1.65% 34.8%;
+                        padding-right: 0%;
+                        transition-timing-function: ease-out;
+                    }
                 }
                 &-light {
                     background-color: $blue-light;
+                    &:hover {
+                        background-image: url('../images/revistas.png');
+                        background-repeat: no-repeat;
+                        background-size: 61%;
+                        background-position: 101% 55%;
+                        padding: 0.76vw 51%;
+                        padding-left: 0%;
+                        transition: all 0.5s;
+                        transition-timing-function: ease-out;
+                    }
                 }
                 &-cloud {
                     background-color: $blue-cloud;
@@ -41,15 +61,13 @@
         &-text {
             font-family: 'Libel-Suit';
             color: $white;
-            text-align: center;
             margin-top: 0;
             margin-bottom: 0;
             padding: 4.7% 0;
-            font-size: 2.3vw;
+            font-size: 2.4vw;
             &--blue {
                 &-dark {
                     background-color: $blue-dark;
-                    text-align: unset;
                     display: inline-block;
                     padding: 3.5% 6.7%;
                     border-radius: 6px;
@@ -60,6 +78,31 @@
                 color: $white;
                 &:hover {
                     color: $white;
+                }
+            }
+            &--editions {
+                &:hover {
+                }
+            }
+            &--interviews {
+                &:hover {
+                    background-image: url('../images/fotos.png');
+                    background-repeat: no-repeat;
+                    background-size: 48% 6.17vw;
+                    background-position: 7% 31%;
+                    transition: all;
+                    padding: 2.06% 52.8%;
+                    padding-right: 0%;
+                    transition-timing-function: ease-out;
+                    font-size: 1.86vw;
+                }
+            }
+            &--contact {
+                &:hover span {
+                    display: none;
+                 }
+                 &:hover:before {
+                    content: "totustuus1207@gmail.com"; 
                 }
             }
         }
@@ -117,9 +160,7 @@
 }
 
 .carousel {
-    margin: 0 auto;
-    padding: 40px;
-    width: 80%;
-    color: #333;
-    background: #419be0;
+    &__image {
+        width: 50%;
+    }
 }

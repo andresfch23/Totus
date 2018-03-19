@@ -863,22 +863,40 @@ p {
     width: 90%;
     text-align: center;
     margin: auto;
-    margin-top: 0; }
+    margin-top: 5%; }
     .main__advertisement-text-down {
-      padding-bottom: 10px;
-      margin-bottom: 10px;
+      padding-bottom: 1%;
+      margin-bottom: 1%;
       color: orangered;
       font-size: 2vw; }
     .main__advertisement-text-up {
       font-size: 2vw;
       padding: 10% 0px; }
   .main__menu-section {
-    background-color: #58A5FF; }
+    text-align: center; }
     .main__menu-section--blue-dark {
       background-color: #1569B4;
-      margin-top: 22px; }
+      margin-top: 5%; }
+      .main__menu-section--blue-dark:hover {
+        background-image: url("../images/jhoana2.png");
+        background-repeat: no-repeat;
+        background-size: 46%;
+        background-position: 7% 31%;
+        transition: all 0.5s;
+        padding: 1.65% 34.8%;
+        padding-right: 0%;
+        transition-timing-function: ease-out; }
     .main__menu-section--blue-light {
       background-color: #1CABE2; }
+      .main__menu-section--blue-light:hover {
+        background-image: url("../images/revistas.png");
+        background-repeat: no-repeat;
+        background-size: 61%;
+        background-position: 101% 55%;
+        padding: 0.76vw 51%;
+        padding-left: 0%;
+        transition: all 0.5s;
+        transition-timing-function: ease-out; }
     .main__menu-section--blue-cloud {
       background-color: #0977B5; }
     .main__menu-section--blue-deep {
@@ -886,14 +904,12 @@ p {
   .main__menu-text {
     font-family: 'Libel-Suit';
     color: #FFFFFF;
-    text-align: center;
     margin-top: 0;
     margin-bottom: 0;
     padding: 4.7% 0;
-    font-size: 2.3vw; }
+    font-size: 2.4vw; }
     .main__menu-text--blue-dark {
       background-color: #1569B4;
-      text-align: unset;
       display: inline-block;
       padding: 3.5% 6.7%;
       border-radius: 6px;
@@ -902,6 +918,20 @@ p {
       color: #FFFFFF; }
       .main__menu-text-link:hover {
         color: #FFFFFF; }
+    .main__menu-text--interviews:hover {
+      background-image: url("../images/fotos.png");
+      background-repeat: no-repeat;
+      background-size: 48% 6.17vw;
+      background-position: 7% 31%;
+      transition: all;
+      padding: 2.06% 52.8%;
+      padding-right: 0%;
+      transition-timing-function: ease-out;
+      font-size: 1.86vw; }
+    .main__menu-text--contact:hover span {
+      display: none; }
+    .main__menu-text--contact:hover:before {
+      content: "totustuus1207@gmail.com"; }
   .main__client {
     margin-top: 10px;
     text-align: center; }
@@ -945,12 +975,8 @@ p {
     margin: 0 auto;
     margin-top: 22px; }
 
-.carousel {
-  margin: 0 auto;
-  padding: 40px;
-  width: 80%;
-  color: #333;
-  background: #419be0; }
+.carousel__image {
+  width: 50%; }
 
 .about__description {
   margin-left: 6.65%;
@@ -1014,7 +1040,7 @@ p {
   width: 58%; }
 
 .about__image {
-  background-image: url("../images/5.png");
+  background-image: url("../images/4.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 23vw;
