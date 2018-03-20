@@ -7,13 +7,11 @@ import Decorators from 'nuka-carousel';
 
 class Carousel1 extends Component {
   render() {
-    return (
-      <Carousel decorators={Decorators} width="100%">
-        <img className="carousel__image" src={Image1}/>
-        <img className="carousel__image" src={Image2}/>
-        <img className="carousel__image" src={Image3}/>
-      </Carousel>
-    )
+    return <Carousel decorators={Decorators} width="100%">
+        <img className="carousel__image" src={Image1} alt="img1" />
+        <img className="carousel__image" src={Image2} alt="img2" />
+        <img className="carousel__image" src={Image3} alt="img3" />
+      </Carousel>;
   }
 };
 
