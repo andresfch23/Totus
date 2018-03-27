@@ -24,6 +24,7 @@ import Interview15 from './components/Interviews/_Interview-15';
 import Interview16 from './components/Interviews/_Interview-16';
 import Interview17 from './components/Interviews/_Interview-17';
 import Interview18 from './components/Interviews/_Interview-18';
+import Edition1 from './components/Editions/_Edition-1';
 import About from './components/About';
 import Page404 from './components/Page404';
 
@@ -52,6 +53,7 @@ const AppRoutes = () => {
                 <Route exact path="/entrevista/amada-rosa-perez" component={Interview16} />
                 <Route exact path="/entrevista/dumas-y-mary" component={Interview17} />
                 <Route exact path="/entrevista/padre-angel-espinosa" component={Interview18} />
+                <Route exact path="/ediciones/edicion-1" component={Edition1} />
                 <Route exact path="/" component={Home} />
                 <Route component={Page404} />
             </Switch>

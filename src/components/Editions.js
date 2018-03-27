@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import ImageLeft from '../assets/images/2.jpg';
 import Image1 from '../assets/images/edition-images/1.jpeg';
 import Image2 from '../assets/images/edition-images/2.jpeg';
@@ -43,12 +44,12 @@ class Editions extends Component {
             </div>
         </div>
         <div className="grid grid__item one-half edition__gallery">
-            <div className="grid__item three-tenths edition__gallery-container">
+            <Link to='ediciones/edicion-1'><div className="grid__item three-tenths edition__gallery-container">
                 <img className="edition__gallery-image" src={Image17} alt="edition 17"></img>
                 <span className="edition__gallery-text">Edición 017 </span>                               
                 <span className="edition__gallery-text">Octubre</span>
                 <span className="edition__gallery-text">Noviembre / 2017 </span>
-            </div>
+            </div></Link>
             <div className="grid__item three-tenths edition__gallery-container">
                 <img className="edition__gallery-image" src={Image16} alt="edition 16"></img>
                 <span className="edition__gallery-text">Edición 016</span>

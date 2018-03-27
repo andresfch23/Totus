@@ -163,4 +163,11 @@
     &__image {
         width: 50%;
     }
+    &__button {
+        &-left {
+            display: none;
+        }
+    }
 }
+
+//.slider-control-
