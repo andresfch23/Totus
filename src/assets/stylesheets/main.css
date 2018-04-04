@@ -978,6 +978,9 @@ p {
 .carousel__image {
   width: 50%; }
 
+.carousel__button-left {
+  display: none; }
+
 .about__description {
   margin-left: 6.65%;
   margin-top: 1.2%;
@@ -1160,6 +1163,14 @@ p {
       margin: auto;
       padding-top: 30%; }
 
+.interview__container {
+  padding-left: 5.5%;
+  padding-right: 5.5%;
+  margin-top: 4%; }
+
+.interview__main-image {
+  width: 99%; }
+
 .interview__main-container {
   margin-top: 0.3%; }
 
@@ -1173,6 +1184,26 @@ p {
   border-radius: 7px;
   margin-top: 0;
   font-size: 2.2vw; }
+  .interview__main-title--first {
+    margin-bottom: 3%;
+    font-size: 2.92vw;
+    padding: 1% 9%;
+    padding-left: 2%;
+    margin-top: 3%; }
+  .interview__main-title--second {
+    margin-bottom: 4.5%;
+    font-size: 2.92vw;
+    padding: 1% 17%;
+    padding-left: 2%;
+    margin-top: 3%;
+    margin-left: 8%; }
+  .interview__main-title--third {
+    margin-bottom: 5%;
+    font-size: 2.92vw;
+    padding: 0.8% 7%;
+    padding-left: 2%;
+    margin-top: 3%;
+    margin-left: 8%; }
   .interview__main-title-head {
     font-size: 2.6vw;
     padding: 1.2% 2%;
@@ -1251,56 +1282,33 @@ p {
 
 .interview__gallery {
   margin-left: 82px; }
+  .interview__gallery-first {
+    margin-left: 8.8%; }
   .interview__gallery-profile {
-    text-align: center;
-    display: inline-block;
-    vertical-align: text-top;
+    margin-bottom: 4%;
     color: #6c6d70;
-    margin-top: 5.3%; }
-    .interview__gallery-profile--one {
-      margin-right: 6.4%; }
-    .interview__gallery-profile--six {
-      margin-right: 1%; }
-    .interview__gallery-profile--eight {
-      margin-right: 3.3%; }
-    .interview__gallery-profile--ten {
-      margin-left: 1%;
-      margin-right: 8%; }
-    .interview__gallery-profile--eleven {
-      margin-left: 4.4%;
-      margin-right: 9.6%; }
-    .interview__gallery-profile--twelve {
-      margin-left: 7%;
-      margin-right: 7%; }
-    .interview__gallery-profile--thirteen {
-      margin-left: 2.8%;
-      margin-right: 4%; }
-    .interview__gallery-profile--fourteen {
-      margin-left: 4.4%;
-      margin-right: 5.9%; }
-    .interview__gallery-profile--fifteen {
-      margin-left: 4.4%;
-      margin-right: 4.4%; }
-    .interview__gallery-profile--sixteen {
-      margin-left: 5%;
-      margin-right: 7%; }
-    .interview__gallery-profile--seventeen {
-      margin-left: 4.4%;
-      margin-right: 10.5%; }
+    position: relative; }
   .interview__gallery-image {
-    width: 85%; }
-    .interview__gallery-image--increase {
-      width: 115%; }
-      .interview__gallery-image--increase-two {
-        width: 104%; }
+    width: 30%; }
   .interview__gallery-text {
-    display: block; }
-    .interview__gallery-text-space {
-      margin-top: 0.67vw; }
-    .interview__gallery-text-expand {
-      width: 115%; }
-      .interview__gallery-text-expand-two {
-        width: 104%; }
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 34.5%;
+    font-size: 2vw;
+    font-family: Verdana; }
+    .interview__gallery-text--one {
+      top: 37%; }
+    .interview__gallery-text--two {
+      top: 49%; }
+    .interview__gallery-text--three {
+      top: 62%; }
+    .interview__gallery-text--expand {
+      top: 35%; }
+    .interview__gallery-text--retract {
+      top: 43%; }
+      .interview__gallery-text--retract-two {
+        top: 46%; }
 
 .interview__posdata {
   margin-left: 9%;
@@ -1366,6 +1374,15 @@ p {
 
 .interview__question--seventeen {
   margin-bottom: 24px; }
+
+.interview-menu__tag {
+  font-size: 2.3vw;
+  padding: 1.2% 0.8%;
+  display: block;
+  text-align: center;
+  width: 32.5%;
+  margin: auto;
+  margin-bottom: 6%; }
 
 .interview-one__first-image {
   margin-left: 20%;
@@ -1795,6 +1812,38 @@ p {
   position: relative;
   margin-left: 9%; }
 
+.interview__menu {
+  padding-right: 3.2%;
+  padding-left: 3.2%; }
+  .interview__menu-section {
+    text-align: center; }
+    .interview__menu-section--blue-dark {
+      background-color: #1569B4;
+      margin-top: 5%; }
+    .interview__menu-section--blue-light {
+      background-color: #1CABE2; }
+    .interview__menu-section--blue-cloud {
+      background-color: #0977B5; }
+    .interview__menu-section--blue-deep {
+      background-color: #2A3076; }
+  .interview__menu-text {
+    font-family: 'Libel-Suit';
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 4.7% 0;
+    font-size: 2.9vw; }
+    .interview__menu-text--blue-dark {
+      background-color: #1569B4;
+      display: inline-block;
+      padding: 3.5% 6.7%;
+      border-radius: 6px;
+      padding-left: 4%; }
+    .interview__menu-text-link {
+      color: #FFFFFF; }
+      .interview__menu-text-link:hover {
+        color: #FFFFFF; }
+
 .advertisement__image {
   background-image: url("../images/cellphone.jpeg");
   background-size: contain;
@@ -1807,6 +1856,8 @@ p {
     background-image: url("../images/3.jpeg");
     height: 16vw;
     margin-top: 0px; }
+  .advertisement__image--alternative {
+    margin-top: 0; }
 
 .advertisement__description {
   background-color: #555555;

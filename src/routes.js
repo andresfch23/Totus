@@ -6,6 +6,9 @@ import App from './App';
 import Home from './components/Home';
 import Editions from './components/Editions';
 import Interviews from './components/Interviews';
+import Section1 from './components/Interviews/Interview-section/First-section';
+import Section2 from './components/Interviews/Interview-section/Second-section';
+import Section3 from './components/Interviews/Interview-section/Third-section';
 import Interview1 from './components/Interviews/_Interview-1';
 import Interview2 from './components/Interviews/_Interview-2';
 import Interview3 from './components/Interviews/_Interview-3';
@@ -35,6 +38,9 @@ const AppRoutes = () => {
                 <Route exact path="/quienes-somos" component={About} />
                 <Route exact path="/ediciones" component={Editions} />
                 <Route exact path="/entrevistas" component={Interviews} />
+                <Route exact path="/entrevistas/religiosas" component={Section1} />
+                <Route exact path="/entrevistas/musicos-catolicos" component={Section2} />
+                <Route exact path="/entrevistas/testimonios-de-conversion" component={Section3} />
                 <Route exact path="/entrevista/rochi-stevenson" component={Interview1} />
                 <Route exact path="/entrevista/alejandro-ordoñez" component={Interview2} />
                 <Route exact path="/entrevista/celines-diaz" component={Interview3} />
