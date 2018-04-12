@@ -8,12 +8,8 @@ class Social extends Component {
     render() {
         return(
             <div className="social">
-                <a href="https://www.facebook.com/revistatotustuus/"><img className="social__icon" src={FacebookLogo} alt="Facebook logo"></img></a>
-                <a href="https://www.instagram.com/revistatotustuus/"><img className="social__icon" src={InstagramLogo} alt="Instagram logo"></img></a>
-                <div className="social__icon social__icon--container">
-                    <img className="social__icon-whatsapp" src={WhatsappLogo} alt="Whatsapp logo"></img>
-                </div>
-                <img className="social__icon" src={GmailLogo} alt="Gmail logo"></img>
+                <a href="https://www.facebook.com/revistatotustuus/" target="_blank"><img className="social__icon" src={FacebookLogo} alt="Facebook logo"></img></a>
+                <a href="https://www.instagram.com/revistatotustuus/" target="_blank"><img className="social__icon" src={InstagramLogo} alt="Instagram logo"></img></a>
             </div>
         )
     }

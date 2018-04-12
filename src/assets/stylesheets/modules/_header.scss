@@ -1,5 +1,6 @@
 .header {
     position: relative;
+    margin-bottom: 2.2%;
     &__caption {
         max-width: 27%;
         position: absolute;
@@ -9,14 +10,13 @@
         transform: translate(-50%, 0);
     }
     &__text{
-        font-size: 1.18vw;
+        font-size: 1.01rem;
     }
     &__image {
         float: right;
         margin-top: 3%;
-        margin-right: 2%;
         width: 22.5%;
-        height: 4.4vw;
+        height: 3.78rem;
     }
 }
 

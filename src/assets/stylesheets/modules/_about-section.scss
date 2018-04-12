@@ -1,8 +1,6 @@
 .about{
     &__description {
-        margin-left: 6.65%;
         margin-top: 1.2%;
-        width: 35%;
         &-text {
             text-align: justify;
             background-color: $pale-blue;
@@ -10,7 +8,7 @@
             padding-top: 4.4%;
             padding-right: 3%;
             padding-bottom: 15%;
-            font-size: 1.18vw;
+            font-size: 1.005rem;
             font-family: Verdana;
             color: $white;
             line-height: 1.68;
@@ -22,25 +20,23 @@
         &-image {
             background-image: url('../images/5.png');
             background-repeat: no-repeat;
-            height: 150px;
+            height: 6.99rem;
             background-size: contain;
             margin-top: 15px;
         }
     }
     &__presentation {
-        width: 90%;
         margin-left: 25px;
         &-text {
             width: 70%;
             display: inline-block;
             font-family: Verdana;
             margin-top: 7%;
-            font-size: 1.1vw;
+            font-size: 0.94rem;
             text-align: justify;
             line-height: 1.6;
             &-first {
                 margin-bottom: 0;
-                padding-right: 6%;
             }
         }
     }
@@ -60,20 +56,17 @@
             color: $white;
             border-radius: 7px;
             font-family: 'Libel-Suit';
-            font-size: 1.46vw;
+            font-size: 1.24rem;
             padding: 3.6% 9.5%;
         }
-    }
-    &__biography {
-        width: 58%;
     }
     &__image {
         background-image: url('../images/4.jpg');
         background-repeat: no-repeat;
-        background-size: contain;
-        height: 23vw;
+        background-size: cover;
+        height: 16.7rem;
         margin-top: 2.57%;
-        margin-left: 3%;
-        margin-right: 11%;
+        margin-left: 3.5%;
+        width: 97%;
     }
 }
