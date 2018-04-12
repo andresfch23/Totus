@@ -1,18 +1,75 @@
-import React, { Component } from 'react';
-import Image1 from '../assets/images/publi1.jpg';
-import Image2 from '../assets/images/publi2.jpg';
-import Image3 from '../assets/images/publi3.jpg';
+import React, { Component } from "react";
 
-class Carousel1 extends Component {
+class Carousel extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      position: 0
+    };
+
+    this.renderImages = this.renderImages.bind(this);
+    this.onClickRight = this.onClickRight.bind(this);
+    this.onClickLeft = this.onClickLeft.bind(this);
+  }
+
+  renderImages() {
+    const { position } = this.state;
+    const { images } = this.props;
+    return <img className="carousel__image" src={images[position]} />;
+  }
+
+  onClickRight() {
+    const { position } = this.state;
+    if (position >= 2) {
+      this.setState({
+        position: 0
+      });
+    } else {
+      this.setState({
+        position: position + 1
+      });
+    }
+  }
+
+  onClickLeft() {
+    const { position } = this.state;
+    if (position === 0) {
+      this.setState({
+        position: 2
+      });
+    } else {
+      this.setState({
+        position: position - 1
+      });
+    }
+  }
+
+  componentDidMount() {
+    setInterval(() => {
+      this.onClickRight();
+    }, 5000);
+  }
+
   render() {
     return (
-      <div>
-          <img className="carouselimage__" src={Image1} alt={}></img>
-          <img className="carouselimage__" src={Image2} alt={}></img>
-          <img className="carouselimage__" src={Image3} alt={}></img>
+      <div className="carousel">
+        <div className="carousel__slider">{this.renderImages()}</div>
+        {/* <button
+          onClick={this.onClickRight}
+          className="carousel__button carousel__button--right"
+        >
+          &gt;
+        </button>
+        <button
+          onClick={this.onClickLeft}
+          className="carousel__button carousel__button--left"
+        >
+          &lt;
+        </button> */}
       </div>
-    )
+    );
   }
-};
+}
 
-export default Carousel1;
+export default Carousel;

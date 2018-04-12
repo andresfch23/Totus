@@ -1859,6 +1859,33 @@ p {
     margin-top: 17%;
     width: 74%; }
 
+.carousel {
+  position: relative; }
+  .carousel__image {
+    display: block;
+    width: 100%; }
+  .carousel__button {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 16px;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer; }
+    .carousel__button--right {
+      right: 10px; }
+    .carousel__button--left {
+      left: 10px; }
+    .carousel__button:focus {
+      outline: none; }
+    .carousel__button:hover {
+      border: none; }
+
 .vertical-center--inline:before {
   content: "";
   display: inline-block;

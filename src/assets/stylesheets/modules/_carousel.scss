@@ -1,0 +1,33 @@
+.carousel {
+  position: relative;
+  &__image {
+    display: block;
+    width: 100%;
+  }
+  &__button {
+    background-color: rgba(black, 0.2);
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 16px;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    &--right {
+      right: 10px;
+    }
+    &--left {
+      left: 10px;
+    }
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      border: none;
+    }
+  }
+}
