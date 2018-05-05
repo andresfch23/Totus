@@ -1,17 +1,17 @@
 .main {
     display: block;
     &__advertisement {
-        background-color: $gray-light;
-        width: 90%;
         text-align: center;
-        margin: auto;
-        margin-top: 5%;
+        margin-top: 6%;
+        &-image {
+            width: 100%;
+        }
         &-text {
             &-down {
                 padding-bottom: 1%;
                 margin-bottom: 1%;
                 color: orangered;
-                font-size: 2vw;
+                font-size: 1.95rem;
             }
             &-up {
                 font-size: 2vw;
@@ -26,7 +26,6 @@
             &--blue {
                 &-dark {
                     background-color: $blue-dark;
-                    margin-top: 5%;
                     &:hover {
                         background-image: url('../images/jhoana2.png');
                         background-repeat: no-repeat;
@@ -136,6 +135,7 @@
             font-size: 1.02rem;
             line-height: 1.2;
             color: gray;
+            padding-top: 12%;
         }
         &-contact {
             background-image: url('../images/3.jpeg');
@@ -149,9 +149,12 @@
     }
     &__image {
         display: block;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         margin-top: 22px;
+        &--m0 {
+            margin-top: 0;
+        }
     }
 }
 

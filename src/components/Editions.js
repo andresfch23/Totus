@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
 import ImageLeft from '../assets/images/2.jpg';
 import Image1 from '../assets/images/edition-images/1.jpeg';
 import Image2 from '../assets/images/edition-images/2.jpeg';
@@ -18,7 +17,6 @@ import Image14 from '../assets/images/edition-images/14.jpeg';
 import Image15 from '../assets/images/edition-images/15.jpeg';
 import Image16 from '../assets/images/edition-images/16.jpeg';
 import Image17 from '../assets/images/edition-images/17.jpeg';
-import File from '../confesion.pdf';
 
 class Editions extends Component {
   render() {
@@ -46,12 +44,12 @@ class Editions extends Component {
                 </div>
             </div>
             <div className="grid grid__item one-half edition__gallery">
-                <a href={File} target="_blank"><div className="grid__item three-tenths edition__gallery-container">
+                <div className="grid__item three-tenths edition__gallery-container">
                     <img className="edition__gallery-image" src={Image17} alt="edition 17"></img>
                     <span className="edition__gallery-text">Edición 017 </span>                               
                     <span className="edition__gallery-text">Octubre</span>
                     <span className="edition__gallery-text">Noviembre / 2017 </span>
-                </div></a>
+                </div>
                 <div className="grid__item three-tenths edition__gallery-container">
                     <img className="edition__gallery-image" src={Image16} alt="edition 16"></img>
                     <span className="edition__gallery-text">Edición 016</span>

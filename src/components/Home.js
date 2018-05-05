@@ -6,11 +6,12 @@ import Carousel from "./Carousel.js";
 import Image1 from "../assets/images/publi1.jpg";
 import Image2 from "../assets/images/publi2.jpg";
 import Image3 from "../assets/images/publi3.jpg";
+import AdvertisementImage from '../assets/images/Comprar.jpg';
 
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="container container--max">
         <div className="grid main">
           <div className="grid__item one-third">
             <Carousel images={[Image1, Image2, Image3]} />
@@ -79,15 +80,13 @@ class Home extends Component {
           <div className="grid__item one-third">
             <div className="main__magazine">
               <img
-                className="main__image"
+                className="main__image main__image--m0"
                 src={MagazineImageRight}
                 alt="Crist on the cross"
               />
             </div>
             <div className="main__advertisement">
-              <h1 className="main__advertisement-text-down">
-                ¿Por que los catolicos decidimos incursionar en la politica?
-              </h1>
+              <img className="main__advertisement-image" src={AdvertisementImage} alt=""></img>
             </div>
           </div>
         </div>

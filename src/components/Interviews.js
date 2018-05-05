@@ -10,7 +10,7 @@ class Interviews extends Component {
                 <div className="grid interview__container">
                     <h3 className="interview__main-title interview-menu__tag">Entrevistas Exclusivas de TOTUS TUUS</h3>
                     <div className="grid__item one-quarter">
-                        <img className="interview__main-image" src={Image2}></img>
+                        <img className="interview__main-image" alt="" src={Image2}></img>
                     </div>
                     <div className="grid__item two-quarters">
                         <div className="interview__menu">
@@ -38,7 +38,7 @@ class Interviews extends Component {
                         </div>
                     </div>
                     <div className="grid__item one-quarter">
-                        <img className="interview__main-image" src={Image1}></img>
+                        <img className="interview__main-image" src={Image1} alt=""></img>
                     </div>
                 </div>
             </div>
